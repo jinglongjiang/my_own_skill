@@ -1,0 +1,33 @@
+{
+  "status": "已验证通过",
+  "comparison": "JSON ints exact; floats absolute difference <= 1e-9; same numeric type; all keys checked",
+  "integer_leaves": 8,
+  "floating_leaves": 51,
+  "other_leaves": 4,
+  "allowed_path_metadata_changes": [
+    {
+      "path": "$.files[0]",
+      "frozen": "data/kda_s443_cf/table.jsonl.gz",
+      "reproduced": "project/data/kda_s443_cf/table.jsonl.gz"
+    }
+  ],
+  "within_tolerance_differences": [
+    {
+      "path": "$.result.10人.elimination_drop_top3",
+      "frozen": "0.3179845068655386",
+      "reproduced": "0.3179845068655388",
+      "signed_difference": "2E-16",
+      "absolute_difference": "2E-16"
+    },
+    {
+      "path": "$.result.20人.elimination_drop_top1",
+      "frozen": "0.0982296324468298",
+      "reproduced": "0.0982296324468297",
+      "signed_difference": "-1E-16",
+      "absolute_difference": "1E-16"
+    }
+  ],
+  "mismatches": [],
+  "frozen": "project/results/kda_s443_target.json",
+  "reproduced": "project/reports/stage0_revalidation_20261013/kda_s443_target.reproduced.json"
+}

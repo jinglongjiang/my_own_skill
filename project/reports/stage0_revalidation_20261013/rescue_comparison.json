@@ -1,0 +1,12 @@
+{
+  "status": "已验证通过",
+  "comparison": "JSON ints exact; floats absolute difference <= 1e-9; same numeric type; all keys checked",
+  "integer_leaves": 9,
+  "floating_leaves": 36,
+  "other_leaves": 0,
+  "allowed_path_metadata_changes": [],
+  "within_tolerance_differences": [],
+  "mismatches": [],
+  "frozen": "project/results/kda_s443_rescue.json",
+  "reproduced": "project/reports/stage0_revalidation_20261013/kda_s443_rescue.reproduced.json"
+}

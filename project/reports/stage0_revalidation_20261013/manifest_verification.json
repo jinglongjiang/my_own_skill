@@ -1,0 +1,93 @@
+{
+  "status": "已验证通过",
+  "manifest": "project/data/kda_s443_cf/MANIFEST.json",
+  "manifest_sha256": "0bd2428d061665ac9d89c34e02553d53b73da697322161ce33d57d15ecc72993",
+  "verified_file_count": 7,
+  "checks": [
+    {
+      "file": "project/data/kda_s443_cf/table.jsonl.gz",
+      "expected": {
+        "sha256": "3e4f137d86455e1db9e496420f365a0713e6f8b9f0bb3f6c99649aec07d5a5a2",
+        "bytes": 9316705
+      },
+      "actual": {
+        "sha256": "3e4f137d86455e1db9e496420f365a0713e6f8b9f0bb3f6c99649aec07d5a5a2",
+        "bytes": 9316705
+      },
+      "status": "已验证通过"
+    },
+    {
+      "file": "project/data/kda_s443_cf/features_cell0.npz",
+      "expected": {
+        "sha256": "bce3b61ae2655147ff3c03ead657a94b27d19ab07147ac978c3c227cf596ac77",
+        "bytes": 5217150
+      },
+      "actual": {
+        "sha256": "bce3b61ae2655147ff3c03ead657a94b27d19ab07147ac978c3c227cf596ac77",
+        "bytes": 5217150
+      },
+      "status": "已验证通过"
+    },
+    {
+      "file": "project/data/kda_s443_cf/features_cell1.npz",
+      "expected": {
+        "sha256": "3c82e61462c1a4c6eebd803cb8b6bd9ba139ef9e3b526f250eba9b0d69eb6e4d",
+        "bytes": 5148504
+      },
+      "actual": {
+        "sha256": "3c82e61462c1a4c6eebd803cb8b6bd9ba139ef9e3b526f250eba9b0d69eb6e4d",
+        "bytes": 5148504
+      },
+      "status": "已验证通过"
+    },
+    {
+      "file": "project/data/kda_s443_cf/features_cell2.npz",
+      "expected": {
+        "sha256": "439ecdcad28ccbf3c0e6ad85d794aeef03081f180868736e0a5fb5cf6007b97e",
+        "bytes": 5738607
+      },
+      "actual": {
+        "sha256": "439ecdcad28ccbf3c0e6ad85d794aeef03081f180868736e0a5fb5cf6007b97e",
+        "bytes": 5738607
+      },
+      "status": "已验证通过"
+    },
+    {
+      "file": "project/data/kda_s443_cf/features_cell3.npz",
+      "expected": {
+        "sha256": "5f11053810a76dbf55abc28196b221bacaee57e0789c12a1d107654b16aec095",
+        "bytes": 5559372
+      },
+      "actual": {
+        "sha256": "5f11053810a76dbf55abc28196b221bacaee57e0789c12a1d107654b16aec095",
+        "bytes": 5559372
+      },
+      "status": "已验证通过"
+    },
+    {
+      "file": "project/data/kda_s443_cf/features_cell4.npz",
+      "expected": {
+        "sha256": "c92c46a1282cac36dfe4b00f54d1023c926df0e10952d6fb0d4dbde3b1e7a19c",
+        "bytes": 6054676
+      },
+      "actual": {
+        "sha256": "c92c46a1282cac36dfe4b00f54d1023c926df0e10952d6fb0d4dbde3b1e7a19c",
+        "bytes": 6054676
+      },
+      "status": "已验证通过"
+    },
+    {
+      "file": "project/data/kda_s443_cf/features_cell5.npz",
+      "expected": {
+        "sha256": "a6fe881785f8d5d0f74cf83673d9b62bdbc307604c2ed030c4c212a234f9cbc0",
+        "bytes": 5929116
+      },
+      "actual": {
+        "sha256": "a6fe881785f8d5d0f74cf83673d9b62bdbc307604c2ed030c4c212a234f9cbc0",
+        "bytes": 5929116
+      },
+      "status": "已验证通过"
+    }
+  ],
+  "scope": "Local file SHA256 and byte counts only. Source index and mother weights are absent and not reverified. NPZ files hashed without decoding."
+}

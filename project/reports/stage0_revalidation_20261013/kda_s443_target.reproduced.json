@@ -1,0 +1,93 @@
+{
+ "mode": "target",
+ "files": [
+  "project/data/kda_s443_cf/table.jsonl.gz"
+ ],
+ "n_states": 2097,
+ "skipped": 3,
+ "result": {
+  "5人": {
+   "n": 700,
+   "n_clusters": 350,
+   "regret_mean": 0.016190094498726923,
+   "regret_median": 0.0,
+   "random_regret_mean": 0.022627374738120893,
+   "elimination": 0.2844908131807675,
+   "elimination_ci95": [
+    -0.06112398348762057,
+    0.5604086125582654
+   ],
+   "elimination_drop_top1": 0.3552013594352803,
+   "elimination_drop_top3": 0.44742215007844144,
+   "elimination_median_based": 1.0,
+   "share_optimal": 0.5728571428571428,
+   "top1_share_of_total_regret": 0.10512717409165197,
+   "top3_share_of_total_regret": 0.2987060065317384,
+   "top5_recoverable": 0.6491011680216539,
+   "top5_recoverable_ci95": [
+    0.4314966268645663,
+    0.806622040710634
+   ],
+   "top10_recoverable": 0.7409164288429917
+  },
+  "10人": {
+   "n": 700,
+   "n_clusters": 350,
+   "regret_mean": 0.03960433137768668,
+   "regret_median": 0.007623427143470973,
+   "random_regret_mean": 0.053661946180297904,
+   "elimination": 0.2619661753485286,
+   "elimination_ci95": [
+    0.06861504753512543,
+    0.44587588464075295
+   ],
+   "elimination_drop_top1": 0.2915387303246737,
+   "elimination_drop_top3": 0.3179845068655388,
+   "elimination_median_based": 0.47317981127559083,
+   "share_optimal": 0.36428571428571427,
+   "top1_share_of_total_regret": 0.04422480087261609,
+   "top3_share_of_total_regret": 0.13101391571119078,
+   "top5_recoverable": 0.5788462453433338,
+   "top5_recoverable_ci95": [
+    0.46873575317538074,
+    0.6878918672844213
+   ],
+   "top10_recoverable": 0.7438018340725402
+  },
+  "20人": {
+   "n": 697,
+   "n_clusters": 350,
+   "regret_mean": 0.10961271701432111,
+   "regret_median": 0.013858623039186502,
+   "random_regret_mean": 0.119634718663576,
+   "elimination": 0.08377168234446797,
+   "elimination_ci95": [
+    -0.06924832686666384,
+    0.23247316085671332
+   ],
+   "elimination_drop_top1": 0.0982296324468297,
+   "elimination_drop_top3": 0.11697870085268236,
+   "elimination_median_based": 0.5438258504741232,
+   "share_optimal": 0.2611190817790531,
+   "top1_share_of_total_regret": 0.01674162572703674,
+   "top3_share_of_total_regret": 0.04773102150329907,
+   "top5_recoverable": 0.7106854658192325,
+   "top5_recoverable_ci95": [
+    0.6252676963699701,
+    0.782001222882909
+   ],
+   "top10_recoverable": 0.8163433309784535
+  },
+  "_group_diff": {
+   "groups": [
+    "5人",
+    "20人"
+   ],
+   "diff": 0.19765485740747846,
+   "ci95": [
+    -0.18057244294699154,
+    0.5213208336016306
+   ]
+  }
+ }
+}
