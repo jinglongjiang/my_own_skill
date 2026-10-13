@@ -1,0 +1,120 @@
+{
+  "status": "prepared; effective freeze requires remote commit confirmation before modeling",
+  "table_path": "project/data/kda_s443_cf/table.jsonl.gz",
+  "table_sha256": "3e4f137d86455e1db9e496420f365a0713e6f8b9f0bb3f6c99649aec07d5a5a2",
+  "assignment_method": "Sort case IDs by SHA256(salt + decimal case); first 35 locked; remaining 140 assigned fold by index modulo 5. Same assignment in all six cells.",
+  "salt": "dots-stage1-split-v1|20261013|",
+  "metadata_fields_read": [
+    "key",
+    "episode",
+    "cell",
+    "eligible"
+  ],
+  "future_outcomes_decoded": false,
+  "rows": 2100,
+  "episodes": 1050,
+  "unique_cases": 175,
+  "per_cell": {
+    "0": {
+      "locked_episodes": 35,
+      "development_episodes": 140,
+      "fold_episodes": [
+        28,
+        28,
+        28,
+        28,
+        28
+      ]
+    },
+    "1": {
+      "locked_episodes": 35,
+      "development_episodes": 140,
+      "fold_episodes": [
+        28,
+        28,
+        28,
+        28,
+        28
+      ]
+    },
+    "2": {
+      "locked_episodes": 35,
+      "development_episodes": 140,
+      "fold_episodes": [
+        28,
+        28,
+        28,
+        28,
+        28
+      ]
+    },
+    "3": {
+      "locked_episodes": 35,
+      "development_episodes": 140,
+      "fold_episodes": [
+        28,
+        28,
+        28,
+        28,
+        28
+      ]
+    },
+    "4": {
+      "locked_episodes": 35,
+      "development_episodes": 140,
+      "fold_episodes": [
+        28,
+        28,
+        28,
+        28,
+        28
+      ]
+    },
+    "5": {
+      "locked_episodes": 35,
+      "development_episodes": 140,
+      "fold_episodes": [
+        28,
+        28,
+        28,
+        28,
+        28
+      ]
+    }
+  },
+  "total_locked_episodes": 210,
+  "total_locked_states": 420,
+  "total_development_episodes": 840,
+  "total_development_states": 1680,
+  "zero_eligible_roots": 0,
+  "single_eligible_roots": [
+    {
+      "key": "c4-k93114-s42",
+      "episode": "c4-k93114",
+      "cell": 4,
+      "case": 93114,
+      "eligible_count": 1
+    },
+    {
+      "key": "c5-k93049-s31",
+      "episode": "c5-k93049",
+      "cell": 5,
+      "case": 93049,
+      "eligible_count": 1
+    },
+    {
+      "key": "c5-k93105-s14",
+      "episode": "c5-k93105",
+      "cell": 5,
+      "case": 93105,
+      "eligible_count": 1
+    }
+  ],
+  "metric_denominators": {
+    "regret": "eligible_count >= 2; same rule as frozen target",
+    "failure": "all roots; same rule as frozen rescue",
+    "failure_comparable": "also report eligible_count >= 2 as descriptive sensitivity"
+  },
+  "episodes_csv_sha256": "3d4092c94a6c6efbe77049382f1955c2eb44ba13ca4fb03502d5d6a24e803af3",
+  "case_overlap_between_partitions_or_folds": 0
+}
