@@ -1,0 +1,16 @@
+$ python3 tools/validate.py
+exec-handoff         60 行  description  191 字符
+idea-forge           68 行  description  197 字符
+method-build         70 行  description  204 字符
+paper-claims         56 行  description  199 字符
+paper-scout          70 行  description  196 字符
+paper-synthesis      69 行  description  237 字符
+prescreen            82 行  description  217 字符
+prior-art-duel       66 行  description  186 字符
+protocol-freeze      71 行  description  203 字符
+research-ledger      63 行  description  200 字符
+research-pipeline    87 行  description  202 字符
+result-verdict       76 行  description  198 字符
+自检: 12 个技能, 0 错误, 0 警告
+
+exit_code=0

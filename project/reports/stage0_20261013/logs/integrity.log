@@ -1,0 +1,7 @@
+$ git diff --exit-code HEAD -- project/data project/results
+exit_code=0
+
+$ git diff --exit-code HEAD -- .
+exit_code=0
+
+Only newly added project/reports/ evidence files are proposed. This is not MANIFEST hash validation.
