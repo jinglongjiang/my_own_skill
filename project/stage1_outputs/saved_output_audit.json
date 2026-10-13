@@ -1,0 +1,12 @@
+{
+  "status": "已验证通过",
+  "scope": "Saved-output finite-number/JSON serialization audit only; no new data/model computation",
+  "checks": {
+    "json_files": 9,
+    "jsonl_records": 5055,
+    "numeric_leaves": 77141
+  },
+  "fitted_models_after_hardstop": 0,
+  "locked_labels_decoded": false,
+  "source_table_reopened": false
+}

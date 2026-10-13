@@ -1,0 +1,8 @@
+{
+  "candidate": "C01",
+  "twenty_person_paired_mean_regret_gain": -0.007027762096879733,
+  "threshold": "strictly > 0.0",
+  "status": "已验证通过",
+  "locked_labels_decoded": false,
+  "time": "2026-10-13T16:58:41+00:00"
+}

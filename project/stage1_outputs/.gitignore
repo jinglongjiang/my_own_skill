@@ -1,0 +1,6 @@
+# Keep large local execution artifacts without publishing them accidentally.
+runtime/
+models/
+*.npy
+*_oof_rows.jsonl
+oof_choices.csv

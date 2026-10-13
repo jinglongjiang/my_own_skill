@@ -1,0 +1,234 @@
+{
+  "status": "ready for parent publication after hard stop",
+  "protocol_remote_commit": "6dd0ce851bbf4ec15cb48e99b03620c4b67e9d58",
+  "files": [
+    {
+      "path": "project/reports/SUMMARY.md",
+      "bytes": 3485,
+      "sha256": "2bc9bcc9082a5de7f20d93fbac3a0591ff20e5a1e06d5e6a74c2638ca9ac8a2f",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/reports/STAGE1_20261013.md",
+      "bytes": 3485,
+      "sha256": "0d8dc444dc3b858f160caa7f3fafc7ea8fb0e3b18fc7ab05160bfacc5ef593f8",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/tools/stage1_offline.py",
+      "bytes": 33457,
+      "sha256": "734e63b5917f6f5003936c99503d7410ca49140001eae1f941998c455c783920",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/.gitignore",
+      "bytes": 133,
+      "sha256": "f8c929a8fbd07053682f394a3971cc814df6fd6f1161be47b3c59ddcbb19182b",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/C01_shuffle_gate.json",
+      "bytes": 228,
+      "sha256": "64d3af049fe4cc1cdbd68ecc6e9d305802d68c0185bf1bd3b4fcea244847d4ca",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/C01_shuffle_oof_rows.jsonl.gz",
+      "bytes": 86184,
+      "sha256": "2e4959c62fb66dce4676ca89684c04d0b6a175d9023bffc8542334c1d9c5eee7",
+      "encoding": "base64"
+    },
+    {
+      "path": "project/stage1_outputs/C01_shuffle_summary.json",
+      "bytes": 26817,
+      "sha256": "8c9d8faed68ed5f5e7dfe17fcd0adc71e6aad156307c91ddbfa34861cfcfd1b9",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/C01_true_oof_rows.jsonl.gz",
+      "bytes": 85148,
+      "sha256": "cc0b6160f5b785b9530d4d807afecb18b5fb86b2b564b865543212c4979fa527",
+      "encoding": "base64"
+    },
+    {
+      "path": "project/stage1_outputs/C01_true_summary.json",
+      "bytes": 26926,
+      "sha256": "7dc65edd2cd8620d90a61dccc16177c412aa23be3411a9bd66caa17338da374c",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/C02_shuffle_gate.json",
+      "bytes": 226,
+      "sha256": "5405353078765c7c88267e5aadb11a8d321fbedc67c5f80b13bcaba5b95726cd",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/C02_shuffle_oof_rows.jsonl.gz",
+      "bytes": 86221,
+      "sha256": "44cee37a20b0d315a8edf048aae5b5fb09bc542a214634207faab63d09322ac6",
+      "encoding": "base64"
+    },
+    {
+      "path": "project/stage1_outputs/C02_shuffle_summary.json",
+      "bytes": 26761,
+      "sha256": "fedef97b59ba2124fd22732e1b2ec2a9191970347b414a8fa8fe615acb283acb",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/CV_TERMINAL.json",
+      "bytes": 416,
+      "sha256": "ccfecbf84d7daa9e45bb76862ad661dc9de81ee0d2d23a4c9db72b4a39611c39",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/LOCAL_ARTIFACTS.json",
+      "bytes": 8757,
+      "sha256": "6b8125f0e996a158465782399d604ec36d856cde9a0f91c159ae159676dd8dbb",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/README.md",
+      "bytes": 2807,
+      "sha256": "e55943a28eeecba861c3aa81c0892db0a46970dde259c320ac9678219b9be621",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/development_controls.json",
+      "bytes": 347,
+      "sha256": "a3f5676e7878d771aad91928595916b2f35a20a7ea7be1e5b415648085448c8b",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/fit_ledger.jsonl",
+      "bytes": 3488,
+      "sha256": "bc616a09ff4d3cf97c356f28633095342fc6eeb02b530d63331c191287a32016",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/input_integrity.json",
+      "bytes": 3014,
+      "sha256": "e1d0c57cfc42948af671cc5c1c0b29013891106fc044a478017d2fa184e4bc75",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C01_shuffle_fold0.log",
+      "bytes": 133,
+      "sha256": "1b6c32eebf980ec7613d75c7ab5a69f295292c4dcadc16043833982344d927fb",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C01_shuffle_fold1.log",
+      "bytes": 133,
+      "sha256": "9baeca923ec3ea2114674f5ba8201bc769369ee5707ee650e3549a0b1a915324",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C01_shuffle_fold2.log",
+      "bytes": 133,
+      "sha256": "dd154398448ad62d0b07902d71d61df60b634aa67dbb72c96a86ab09f5c33b26",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C01_shuffle_fold3.log",
+      "bytes": 133,
+      "sha256": "4cc1cf03fd4914af1845ab3af16fd3a981721b60fbc13cfbb4d6e77437211bd1",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C01_shuffle_fold4.log",
+      "bytes": 133,
+      "sha256": "70d35b430bb41e38c0063a36352ede2ca964631f578ccbe4b15887209c2118aa",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C01_true_fold0.log",
+      "bytes": 133,
+      "sha256": "8e73246b9cb863ff2fc702400a5a2072130224cac4831cb8aac6dc880821839d",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C01_true_fold1.log",
+      "bytes": 133,
+      "sha256": "49f7c689bc2ba66c0c317fde6954bc98bae19d56dd8851583096356440cfa5d3",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C01_true_fold2.log",
+      "bytes": 133,
+      "sha256": "c583bb3cad3712f35fc7e1b00a2756c9e0c1fc6a3370721773a3b8c325892901",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C01_true_fold3.log",
+      "bytes": 133,
+      "sha256": "e6bade1e76396bee0351459a1e78226b6c3f9d0ac6b392581ed104fa75120770",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C01_true_fold4.log",
+      "bytes": 133,
+      "sha256": "87333c15e829e70552175e338d239d64a25b763dd58da32c1951e6a001ca54c9",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C02_shuffle_fold0.log",
+      "bytes": 133,
+      "sha256": "a401f48fc9a7026f8eb3cadbbcc07eac2512f2afc424f54b105a64386b02b31c",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C02_shuffle_fold1.log",
+      "bytes": 133,
+      "sha256": "886f701264de85bd6c9ded5faaf593d090b879b272153017c254e1049d8e1ed7",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C02_shuffle_fold2.log",
+      "bytes": 133,
+      "sha256": "98847b7d910c4c8c303e8c03f01a095785408375b99eb29dd059c177bf99227d",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C02_shuffle_fold3.log",
+      "bytes": 133,
+      "sha256": "d77f788eff404049c62ec6c2698548d6098f29e51b768b8687aba321038e286f",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/C02_shuffle_fold4.log",
+      "bytes": 133,
+      "sha256": "f5661c6e3ba44bc84c32c644add426794a04d82be8e0f91bb1ab725de0561697",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/cv_console.log",
+      "bytes": 2639,
+      "sha256": "b0d0aba6eb08f71fa5c2db70791caa50a5f996ef8a023e99cef69b2ec9befa7f",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/execution.log",
+      "bytes": 2446,
+      "sha256": "abe91ab4b9e5556cd7e02fae270c56fcaa58bf29c128d12d5b10eda83878f38e",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/logs/synthetic_tests.log",
+      "bytes": 28,
+      "sha256": "61731ca69196f5079ff6297c1d2e6e431db3b86b0ae86b3ddb5ef5af65b53505",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/saved_output_audit.json",
+      "bytes": 336,
+      "sha256": "7332cf3044be62b6913d775498519edd8c63c232c2e09a07ca1ba8791c498419",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "project/stage1_outputs/synthetic_tests.json",
+      "bytes": 220,
+      "sha256": "b8a7ab046e559587d6acce85a4675c3bf8601dce77c4cd628b6d0ba31d484857",
+      "encoding": "utf-8"
+    }
+  ]
+}
