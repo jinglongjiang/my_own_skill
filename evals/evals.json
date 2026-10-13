@@ -1,0 +1,72 @@
+{
+ "skill_name": "my_own_skill",
+ "note": "尚未运行。这些是提示词级用例：包内没有配套的固定数据文件，也没有可执行的判分器，期望输出描述的是应有的做法而不是具体数值。要做有/无技能对照，需要先为每条补上固定输入和可检查的断言。",
+ "evals": [
+  {
+   "id": 1,
+   "skill": "research-pipeline",
+   "prompt": "我想给现在这个人群导航的框架找个新方向，你帮我想几个创新点吧。工作区在 research/，里面 TARGET.md 还是'未测'。",
+   "expected_output": "指出靶子未测并说明代价；给出两条路——先用 prescreen 量靶子，或带'无实测靶子'标注走原型通道；更新 STATE.md"
+  },
+  {
+   "id": 2,
+   "skill": "paper-scout",
+   "prompt": "帮我查一下有没有人用反事实回报给价值网络的候选动作做排序监督，机器人导航或者别的领域都行。",
+   "expected_output": "建立台账；同问题与跨领域（>=3 个子领域）检索式；带理由的筛选；近邻全文阅读登记；说明未检索到不代表不存在"
+  },
+  {
+   "id": 3,
+   "skill": "prescreen",
+   "prompt": "我有个想法：打分最高的几个动作如果分数差不到 1e-3，就改选离人最远的那个。反事实表在 data/cf_table.jsonl.gz，先帮我看看值不值得跑闭环。",
+   "expected_output": "写规则函数并用 regret_ruler.py rule 查表；报告候选对基线、候选对同幅随机及区间；回答测试资格四问；三选一结论"
+  },
+  {
+   "id": 4,
+   "skill": "protocol-freeze",
+   "prompt": "方法是用每个候选动作的精确反事实回报做 pairwise ranking 微调价值头。帮我设计对照实验，要能证明提升来自排序监督而不是多出来的训练数据。",
+   "expected_output": "至少四臂且相邻臂只差一个因素；按 case 划分三块数据；裁决条件写成配对差并含非劣效与保持性；预注册后冻结"
+  },
+  {
+   "id": 5,
+   "skill": "exec-handoff",
+   "prompt": "Codex 回报说 Stage 0 没过：按最慢那个场景外推，6 小时只能生成 636 个状态，低于下限 1200，它停了。它执行得对吗？接下来怎么办？",
+   "expected_output": "读原始测速数据自己重算，而不是只读摘要；判断停止是否合规；判断停止原因属于哪一类并说明依据；给出不止一个方案并标明哪些需要修订协议"
+  },
+  {
+   "id": 6,
+   "skill": "result-verdict",
+   "prompt": "三个变体都跑完了，决策改了 40% 多，成功率 78.0 → 75.5 / 77.0 / 76.0。这算有效果吗？文件是 runs/base.json 和 runs/v1.json、v2.json、v3.json。",
+   "expected_output": "用 paired_stats.py 从原始文件复算；报告以 case 为单位的检验、校正和区间；说明决策改变率不是收益证据；结论的强度与区间一致"
+  },
+  {
+   "id": 7,
+   "skill": "result-verdict",
+   "prompt": "GPT 说：'20 人场景平均 regret 0.0923，明显高于 5 人的 0.0042，所以问题已确认；51.7% 可以通过重排 top-5 回收，位置基本确定。' 你判断一下这段话对不对。",
+   "expected_output": "逐条判定而不是整体表态；检查原始 regret 对比是否有需要归一化的基线变化；说明重排序上限的性质（事后上限）和区间；区分现象、位置、成因各层"
+  },
+  {
+   "id": 8,
+   "skill": "research-ledger",
+   "prompt": "我想试试在并列的候选里按净距重新挑一个，这个之前做过没有？",
+   "expected_output": "运行 ledger.py dup 并读 RECORD.md；若命中已杀方向则给出死因与证据位置，要求说明与上次死因的区别"
+  },
+  {
+   "id": 9,
+   "skill": "method-build",
+   "prompt": "别再让 Codex 审计了，你自己把并列集合仲裁那个规则挂到评测脚本上，本地 GRU 权重跑 50 个 case 看看。",
+   "expected_output": "先调查调用链；独立目录挂接不改原工程；先做阈值为零的退化一致检查；smoke 后再跑；用 paired_stats.py 复算并报告状态"
+  },
+  {
+   "id": 10,
+   "skill": "prescreen",
+   "prompt": "我想把网络输入里的行人速度通道全部置零，看排序会不会变。这个改动对 80 个候选是一样的，所以应该是共模的，不用测了吧？",
+   "expected_output": "指出输入扰动相同不代表分数变化相同（网络非线性），不能代数淘汰；要求在记录状态上算新打分并用 regret_ruler.py channel 实测"
+  },
+  {
+   "id": 11,
+   "skill": "result-verdict",
+   "prompt": "新方法在 20 个 case 上碰撞数是 0，基线也是 0，碰撞率没有恶化，非劣效 +2pp 算通过了吧？",
+   "expected_output": "指出零事件时 bootstrap 区间会退化；用不退化的界重新计算；按计算结果给出能否判定非劣效"
+  }
+ ]
+}
