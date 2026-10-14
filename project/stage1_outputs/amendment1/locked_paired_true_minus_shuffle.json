@@ -1,0 +1,206 @@
+{
+  "5人": {
+    "episode_primary": {
+      "delta_true_minus_shuffle": -0.0014796340814785273,
+      "delta_true_minus_shuffle_ci95": [
+        -0.004086171268812239,
+        0.00024016542593110265
+      ],
+      "gain_shuffle_minus_true": 0.0014796340814785273,
+      "gain_shuffle_minus_true_ci95": [
+        -0.00024016542593110265,
+        0.004086171268812239
+      ],
+      "delta_ci98_3333_cv_bonferroni": null,
+      "failure_change_true_minus_shuffle": 0.0,
+      "failure_change_true_minus_shuffle_ci95": [
+        0.0,
+        0.0
+      ],
+      "n_states_regret": 140,
+      "n_states_failure": 140,
+      "n_episodes": 70,
+      "n_cases": 35,
+      "bootstrap": {
+        "cluster": "episode",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          1,
+          0,
+          0
+        ]
+      },
+      "interpretation": "Negative Delta favors true labels; positive gain favors true labels."
+    },
+    "case_sensitivity": {
+      "delta_true_minus_shuffle": -0.0014796340814785273,
+      "delta_true_minus_shuffle_ci95": [
+        -0.003912406108012628,
+        0.00022876299435529356
+      ],
+      "gain_shuffle_minus_true": 0.0014796340814785273,
+      "gain_shuffle_minus_true_ci95": [
+        -0.00022876299435529356,
+        0.003912406108012628
+      ],
+      "delta_ci98_3333_cv_bonferroni": null,
+      "failure_change_true_minus_shuffle": 0.0,
+      "failure_change_true_minus_shuffle_ci95": [
+        0.0,
+        0.0
+      ],
+      "n_states_regret": 140,
+      "n_states_failure": 140,
+      "n_episodes": 70,
+      "n_cases": 35,
+      "bootstrap": {
+        "cluster": "case",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          1,
+          0,
+          1
+        ]
+      },
+      "interpretation": "Negative Delta favors true labels; positive gain favors true labels."
+    }
+  },
+  "10人": {
+    "episode_primary": {
+      "delta_true_minus_shuffle": -0.0003600713179712231,
+      "delta_true_minus_shuffle_ci95": [
+        -0.0012225546005898797,
+        0.00032204595196530115
+      ],
+      "gain_shuffle_minus_true": 0.0003600713179712231,
+      "gain_shuffle_minus_true_ci95": [
+        -0.00032204595196530115,
+        0.0012225546005898797
+      ],
+      "delta_ci98_3333_cv_bonferroni": null,
+      "failure_change_true_minus_shuffle": 0.0,
+      "failure_change_true_minus_shuffle_ci95": [
+        0.0,
+        0.0
+      ],
+      "n_states_regret": 140,
+      "n_states_failure": 140,
+      "n_episodes": 70,
+      "n_cases": 35,
+      "bootstrap": {
+        "cluster": "episode",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          1,
+          1,
+          0
+        ]
+      },
+      "interpretation": "Negative Delta favors true labels; positive gain favors true labels."
+    },
+    "case_sensitivity": {
+      "delta_true_minus_shuffle": -0.0003600713179712231,
+      "delta_true_minus_shuffle_ci95": [
+        -0.001213349057639275,
+        0.000324781731860909
+      ],
+      "gain_shuffle_minus_true": 0.0003600713179712231,
+      "gain_shuffle_minus_true_ci95": [
+        -0.000324781731860909,
+        0.001213349057639275
+      ],
+      "delta_ci98_3333_cv_bonferroni": null,
+      "failure_change_true_minus_shuffle": 0.0,
+      "failure_change_true_minus_shuffle_ci95": [
+        0.0,
+        0.0
+      ],
+      "n_states_regret": 140,
+      "n_states_failure": 140,
+      "n_episodes": 70,
+      "n_cases": 35,
+      "bootstrap": {
+        "cluster": "case",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          1,
+          1,
+          1
+        ]
+      },
+      "interpretation": "Negative Delta favors true labels; positive gain favors true labels."
+    }
+  },
+  "20人": {
+    "episode_primary": {
+      "delta_true_minus_shuffle": -0.012025664312332332,
+      "delta_true_minus_shuffle_ci95": [
+        -0.0291862130040385,
+        5.1269034114555615e-05
+      ],
+      "gain_shuffle_minus_true": 0.012025664312332332,
+      "gain_shuffle_minus_true_ci95": [
+        -5.1269034114555615e-05,
+        0.0291862130040385
+      ],
+      "delta_ci98_3333_cv_bonferroni": null,
+      "failure_change_true_minus_shuffle": -0.014285714285714285,
+      "failure_change_true_minus_shuffle_ci95": [
+        -0.03571428571428571,
+        0.0
+      ],
+      "n_states_regret": 139,
+      "n_states_failure": 140,
+      "n_episodes": 70,
+      "n_cases": 35,
+      "bootstrap": {
+        "cluster": "episode",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          1,
+          2,
+          0
+        ]
+      },
+      "interpretation": "Negative Delta favors true labels; positive gain favors true labels."
+    },
+    "case_sensitivity": {
+      "delta_true_minus_shuffle": -0.012025664312332332,
+      "delta_true_minus_shuffle_ci95": [
+        -0.029247401078239633,
+        -2.0437296481915598e-05
+      ],
+      "gain_shuffle_minus_true": 0.012025664312332332,
+      "gain_shuffle_minus_true_ci95": [
+        2.0437296481915598e-05,
+        0.029247401078239633
+      ],
+      "delta_ci98_3333_cv_bonferroni": null,
+      "failure_change_true_minus_shuffle": -0.014285714285714285,
+      "failure_change_true_minus_shuffle_ci95": [
+        -0.03571428571428571,
+        0.0
+      ],
+      "n_states_regret": 139,
+      "n_states_failure": 140,
+      "n_episodes": 70,
+      "n_cases": 35,
+      "bootstrap": {
+        "cluster": "case",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          1,
+          2,
+          1
+        ]
+      },
+      "interpretation": "Negative Delta favors true labels; positive gain favors true labels."
+    }
+  }
+}

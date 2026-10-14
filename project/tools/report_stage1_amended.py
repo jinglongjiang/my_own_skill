@@ -8,11 +8,11 @@ OUT = ROOT / 'project/stage1_outputs/amendment1'
 def read(name):
     return json.loads((OUT / name).read_text())
 
-def interval(point, ci, percent=False, digits=6):
+def interval(point, ci, percent=False, digits=6, suffix=None):
     if point is None or ci is None:
         return '未定义'
     scale = 100 if percent else 1
-    suffix = '%' if percent else ''
+    suffix = ('%' if percent else '') if suffix is None else suffix
     return f'{point*scale:.{digits}f}{suffix} [{ci[0]*scale:.{digits}f}, {ci[1]*scale:.{digits}f}]'
 
 
@@ -40,7 +40,7 @@ def cv_report():
             e=data[cid]['paired'][group]['episode_primary']; c=data[cid]['paired'][group]['case_sensitivity']
             lines.append('|'+ '|'.join([cid,group,interval(e['delta_true_minus_shuffle'],e['delta_true_minus_shuffle_ci95']),
                 interval(c['delta_true_minus_shuffle'],c['delta_true_minus_shuffle_ci95']),
-                interval(e['failure_change_true_minus_shuffle'],e['failure_change_true_minus_shuffle_ci95'],True,2)])+'|')
+                interval(e['failure_change_true_minus_shuffle'],e['failure_change_true_minus_shuffle_ci95'],True,2,'')])+'|')
     lines += ['', '## 三个预声明 20 人 CV 比较的多重比较敏感性', '',
         '|候选|真实较基线缩减 [Bonferroni 98.3333%CI]|Delta [Bonferroni 98.3333%CI]|', '|---|---|---|']
     for cid in ('C01','C02','C03'):
@@ -54,7 +54,7 @@ def cv_report():
             t=data[cid]['true'][group]['episode_primary']; s=data[cid]['shuffle'][group]['episode_primary']
             lines.append('|'+ '|'.join([cid,group,interval(t['candidate']['failure_rate'],t['candidate']['failure_rate_ci95'],True,2),
                 interval(s['candidate']['failure_rate'],s['candidate']['failure_rate_ci95'],True,2),
-                interval(t['failure_change_candidate_minus_base'],t['failure_change_ci95'],True,2)])+'|')
+                interval(t['failure_change_candidate_minus_base'],t['failure_change_ci95'],True,2,'')])+'|')
     lines += ['', '|人数|基线 regret [95%CI]|均匀随机 regret [95%CI]|基线失败率 [95%CI]|均匀随机失败率 [95%CI]|', '|---|---|---|---|---|']
     for group in ('5人','10人','20人'):
         t=data['C03']['true'][group]['episode_primary']
@@ -80,7 +80,9 @@ def final_report():
         f"## 结论：{terminal['verdict']}", '',
         '执行状态：已验证通过。下述裁决仅适用于固定 KDA T24 s443、预声明三种标量配置和母体续行离线表；不等于该研究方向已被证明无效。', '',
         f"【实测】按未变选择规则预选 C03；锁定 20 人 regret 较基线缩减 {interval(primary['regret_reduction'],primary['regret_reduction_ci95'],True,2)}；真标签减打乱标签 Delta={interval(paired['delta_true_minus_shuffle'],paired['delta_true_minus_shuffle_ci95'])}。",
-        f"全状态失败率：基线 {interval(primary['base']['failure_rate'],primary['base']['failure_rate_ci95'],True,2)}，真实模型 {interval(primary['candidate']['failure_rate'],primary['candidate']['failure_rate_ci95'],True,2)}；配对差 {interval(primary['failure_change_candidate_minus_base'],primary['failure_change_ci95'],True,2)} 个百分点。", '',
+        f"全状态失败率：基线 {interval(primary['base']['failure_rate'],primary['base']['failure_rate_ci95'],True,2)}，真实模型 {interval(primary['candidate']['failure_rate'],primary['candidate']['failure_rate_ci95'],True,2)}；配对差 {interval(primary['failure_change_candidate_minus_base'],primary['failure_change_ci95'],True,2,'')} 个百分点。", '',
+        '20 人缩减点估计 11.33% <20% 且区间跨 0；真实相对打乱的正向增益区间下界为 −0.00005127，亦未严格大于 0。因此按原分界及新增条件裁为 INCONCLUSIVE。', '',
+        'Delta 定义为真实模型 regret−打乱模型 regret；负数有利于真实标签。区间为 episode-primary 95%，20 人 Delta 的 episode-primary 区间跨 0，case-block 敏感性区间未跨 0，后者不能替代主判据。', '',
         '## 证据：锁定集三个组', '',
         '|人数|基线 regret [95%CI]|真实 regret [95%CI]|打乱 regret [95%CI]|随机 regret [95%CI]|真实较基线缩减 [95%CI]|Delta 真−打乱 [95%CI]|',
         '|---|---|---|---|---|---|---|']
@@ -104,9 +106,10 @@ def final_report():
         '- 锁定每组 35 case、70 episode；regret 状态分母 140/140/139，失败率每组 140。episode 为主，case-block 为敏感性；单候选安全状态只从 regret 分母剔除。',
         f"- 20 人 case-block 缩减 {interval(t['20人']['case_sensitivity']['regret_reduction'],t['20人']['case_sensitivity']['regret_reduction_ci95'],True,2)}；Delta {interval(d['20人']['case_sensitivity']['delta_true_minus_shuffle'],d['20人']['case_sensitivity']['delta_true_minus_shuffle_ci95'])}。",
         '- 修订前已看到 C01 真/打乱、C02 打乱 CV，明确不是全程未触及结果的原始预注册。阶段 0 有全表聚合暴露；单训练 seed、共享 case 相关性和有限标量信息仍限制推断。',
+        f"- 20 人收益集中：最大 3 case 占绝对配对增益 {interval(primary['tail']['top3_case_share_absolute_gain']['point'],primary['tail']['top3_case_share_absolute_gain']['ci95'],True,2)}；去掉基线 regret 最大 3 个状态后缩减 {interval(primary['tail']['drop_base_top3_reduction']['point'],primary['tail']['drop_base_top3_reduction']['ci95'],True,2)}；基线−真实 regret 中位数差 {interval(primary['tail']['median_difference']['point'],primary['tail']['median_difference']['ci95'])}。",
         '- 全组失败率、区间、top5 对照、尾部集中度、去尾和中位数口径见 `locked_true_summary.json`、`locked_shuffle_summary.json`；实际模型、数据来源、协议与划分哈希见 `SELECTED_CANDIDATE.json`。',
         '- 完成时间早于原总截止 2026-10-14 02:38 UTC；约九小时等待不计入阶段 1 活跃工作，但没有延长总墙钟期限。',
-        '- 阶段 3 仅在 SUPPORTED 时获准。本结果若非 SUPPORTED，不制作方法卡，不执行闭环，不追加候选。后续若尝试新表示或新母体，必须另行授权并预先固定新协议。', '']
+        '- 阶段 3 未触发：本结果不是 SUPPORTED，不制作方法卡，不执行闭环，不追加候选。后续若尝试新表示或新母体，必须另行授权并预先固定新协议。', '']
     path=ROOT/'project/reports/STAGE1_AMENDED_20261014.md'
     path.write_text('\n'.join(lines))
     print(path)

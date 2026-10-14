@@ -1,0 +1,20 @@
+{
+  "status": "aggregate evidence published; locked per-root rows withheld pending explicit public-release approval",
+  "withheld": [
+    {
+      "path": "project/stage1_outputs/amendment1/locked_shuffle_rows.jsonl.gz",
+      "bytes": 20396,
+      "sha256": "37ed10f71bd016624bd385cca005a27e4caebb6f43b4f30894d2b297dd461322",
+      "encoding": "base64",
+      "git_blob_sha": "401ac2b62faed5b4473811163c3ebe3715a215c7"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/locked_true_rows.jsonl.gz",
+      "bytes": 20377,
+      "sha256": "b869530d5494f063d0b8e98c108df78cc61fa8e5d12e3fe881623f4a8f6a5409",
+      "encoding": "base64",
+      "git_blob_sha": "ea555f3d092d7ed75bd4c91dea26925c12845da2"
+    }
+  ],
+  "note": "FINAL_PUBLICATION_MANIFEST.json is an inventory of generated artifacts, not proof every artifact was published. The two listed locked-row archives are retained locally and not committed."
+}
