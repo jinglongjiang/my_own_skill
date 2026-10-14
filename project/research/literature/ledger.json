@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-14",
+  "question_freeze": "QUESTION_FREEZE.md",
+  "criteria": {
+    "include": ["相同动作监督/rollout-to-policy-improvement结构且全文可定位", "同类价值型crowd navigation接口，机制或公平基线", "已发表机器人可见与隐藏类型、有限观测或几何遮挡设定，优先官方代码", "跨域结构相同，作为机制来源时必须精读全文"],
+    "exclude": ["只有词汇相似或任务不对应", "取不到公开全文则不作方法/数字证据", "重复版本合并", "不能明确机器人可见性、隐藏变量或遮挡种类时不补设定"],
+    "read_levels": ["full", "abstract", "title"],
+    "full_requirement": "至少两个可复查Section/Eq/Alg/Table/Fig锚点；全文可访问不等于全文已读"
+  },
+  "search_ledger": "SEARCH_LEDGER.md",
+  "method_search_queries": 35,
+  "settings_search_queries": 18,
+  "total_search_queries": 53,
+  "full_main_text_notes": 11,
+  "papers": [
+    {"id":"lagoudakis2003","decision":"include","role":"near-miss","read_level":"full","reason":"候选动作rollout、母体续行、分类标签与当前标签构造直接重合","url":"https://cdn.aaai.org/ICML/2003/ICML03-057.pdf","note":"papers/lagoudakis2003_rcpi.md"},
+    {"id":"ross2014","decision":"include","role":"near-miss","read_level":"full","reason":"全动作成本向量、回归/排序与NRPI续行定义直接对应","url":"https://arxiv.org/pdf/1406.5979","note":"papers/ross2014_aggrevate_nrpi.md"},
+    {"id":"chang2015","decision":"include","role":"near-miss","read_level":"full","reason":"单步偏离生成成本监督；roll-in/roll-out分布与闭环限制","url":"https://proceedings.mlr.press/v37/changb15.pdf","note":"papers/chang2015_lols.md"},
+    {"id":"nakamoto2024","decision":"include","role":"near-miss","read_level":"full","reason":"冻结机器人母体+额外价值函数重排候选动作的wrapper直接相近","url":"https://arxiv.org/html/2410.13816v2","note":"papers/nakamoto2024_vgps.md"},
+    {"id":"chen2020rgl","decision":"include","role":"baseline","read_level":"full","reason":"同CrowdNav/80动作价值策略，模型预测top-w搜索；非真实终局标签","url":"https://www2.cs.sfu.ca/~mori/research/papers/chen-iros20.pdf","note":"papers/chen2020_rgl.md"},
+    {"id":"xu2023solo","decision":"include","role":"near-miss","read_level":"full","reason":"crowd任务已有轨迹排序监督；作用对象是奖励而非本轮动作G_A","url":"https://arxiv.org/pdf/2209.07996","note":"papers/xu2023_solo_tdirl.md"},
+    {"id":"hwang2026","decision":"include","role":"near-miss","read_level":"full","reason":"人群模拟已有反事实动作结果QA监督，防宽泛first claim；发表状态未验证","url":"https://arxiv.org/html/2604.05525v1","note":"papers/hwang2026_crowdvla.md"},
+    {"id":"swaminathan2015crm","decision":"exclude","role":"background","read_level":"abstract","reason":"本轮只完成摘要筛选，不能承担机制论证；不同于完整分支标签的logged-bandit问题需以后全文核查","url":"https://proceedings.mlr.press/v37/swaminathan15.html"},
+    {"id":"elmachtoub_spo","decision":"exclude","role":"background","read_level":"abstract","reason":"跨域决策导向学习线索；预算内未精读，不据此声称某损失可直接适配","url":"https://arxiv.org/abs/1710.08005"},
+    {"id":"sharmanska2013","decision":"exclude","role":"background","read_level":"title","reason":"只查到标题/检索片段，未完成全文阅读，不复述具体Rank Transfer机制","url":"https://openaccess.thecvf.com/content_iccv_2013/papers/Sharmanska_Learning_to_Rank_2013_ICCV_paper.pdf"},
+    {"id":"wu2023risk","decision":"exclude","role":"background","read_level":"abstract","reason":"有公开作者PDF，但本轮只读摘要和引言，风险控制相关性不足以支撑具体动作标签结论","url":"https://www.robot.t.u-tokyo.ac.jp/~yamashita/paper/B/B305Final.pdf"},
+    {"id":"li2020hindsight","decision":"exclude","role":"background","read_level":"abstract","reason":"摘要定位为多任务goal/task relabeling，与固定任务同根动作替代的主问题不同；不展开方法","url":"https://arxiv.org/abs/2002.11708"},
+    {"id":"wan2021hfr","decision":"exclude","role":"background","read_level":"abstract","reason":"meta-RL任务重标注摘要，未完成全文，非本轮直接近邻证据","url":"https://arxiv.org/abs/2109.09031"},
+    {"id":"packer2021htr","decision":"exclude","role":"background","read_level":"abstract","reason":"meta-RL任务重标注摘要，未完成全文，非本轮直接近邻证据","url":"https://arxiv.org/abs/2112.00901"},
+    {"id":"sun2017aggrevated","decision":"exclude","role":"background","read_level":"title","reason":"原始AGGREVATE/NRPI已覆盖当前核心问题；本轮仅发现并读片段，未用该文方法细节","url":"https://publications.ri.cmu.edu/storage/publications/2018/01/sun17d.pdf"}
+  ],
+  "excluded_nonpapers": ["Lacuna自动研究构想页面", "Paperium/Paperlayer及类似生成摘要", "搜索聚合站的数字与方法结论"],
+  "settings_ledger": "settings/SEARCH_LEDGER.md",
+  "settings_full_notes": ["settings/papers/HEIGHT.md", "settings/papers/PaS.md", "settings/papers/DSRNN.md", "settings/papers/MapMultiPolicy.md"],
+  "notes": "机制侧纳入7篇全文，排除8篇未精读候选；角色可在论文笔记中补充。设定侧另计，不将摘要伪装为full。"
+}
