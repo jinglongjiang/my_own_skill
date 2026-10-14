@@ -1,0 +1,83 @@
+{
+  "status": "已验证通过",
+  "next_step": "await verified publication of both actual models and selection before locked read",
+  "selected_candidate": {
+    "id": "C03",
+    "estimator": "sklearn.ensemble.HistGradientBoostingClassifier",
+    "target": "1 if branch_outcome != success else 0",
+    "preprocessing": "none",
+    "parameters": {
+      "loss": "log_loss",
+      "learning_rate": 0.05,
+      "max_iter": 120,
+      "max_leaf_nodes": 15,
+      "max_depth": null,
+      "min_samples_leaf": 100,
+      "l2_regularization": 1.0,
+      "max_bins": 64,
+      "early_stopping": false,
+      "random_state": 271828
+    },
+    "k": 5,
+    "lambda": 0.1,
+    "decision": "argmax final_scores - 0.1 * predicted failure probability within baseline top 5 eligible candidates"
+  },
+  "selection_rule": "minimum true-label 20-person OOF regret, then failure, then candidate ID",
+  "winner": {
+    "candidate": "C03",
+    "regret": 0.11318684311396245,
+    "failure": 0.15535714285714286,
+    "reduction": 0.022268781255790425
+  },
+  "all_completed_candidates": [
+    {
+      "candidate": "C01",
+      "regret": 0.12080845597181274,
+      "failure": 0.17142857142857143,
+      "reduction": -0.043568277392444406
+    },
+    {
+      "candidate": "C02",
+      "regret": 0.11823728767940214,
+      "failure": 0.16428571428571428,
+      "reduction": -0.02135799712511754
+    },
+    {
+      "candidate": "C03",
+      "regret": 0.11318684311396245,
+      "failure": 0.15535714285714286,
+      "reduction": 0.022268781255790425
+    }
+  ],
+  "skipped_candidates": [],
+  "models": {
+    "true": {
+      "path": "project/stage1_outputs/amendment1/models/C03_true_final_development.joblib",
+      "sha256": "cef999bac373ecd7ed7f4e4d0a8f6369cb5238ed82511f1cd5306e65e37b2f8b",
+      "bytes": 81556,
+      "target": "failure"
+    },
+    "shuffle": {
+      "path": "project/stage1_outputs/amendment1/models/C03_shuffle_final_development.joblib",
+      "sha256": "d8442a7dafe9ea54aee458ec2c0786bbda0b46065d54592ba505f2a0156c4fb4",
+      "bytes": 83551,
+      "target": "shuffle_failure"
+    }
+  },
+  "protocol_remote_commit": "6dd0ce851bbf4ec15cb48e99b03620c4b67e9d58",
+  "amendment_remote_commit": "0d470b6ac9e8acca259ed806078689068bedade7",
+  "implementation_note_remote_commit": "4525d2a541da69efbdd7186f8ff2c37dca4e74db",
+  "protocol_sha256": "ccf8f2ec2791acca607414eff16b08c9f198dac8f14d11956d494164b6150544",
+  "episodes_csv_sha256": "3d4092c94a6c6efbe77049382f1955c2eb44ba13ca4fb03502d5d6a24e803af3",
+  "candidate_list_sha256": "f13015086e73067fcc3702754ca74eb5484f393f204e30879c342cb1fbc149db",
+  "amendment_sha256": "670e6819a00df64d95bf60fd4c42faacca38550329711dc0cbd71ba55b0d62d1",
+  "implementation_note_sha256": "87653d1a8b50454c37733430c9a4ca2a5ee6d85a7d5e974c629a4fd12c7b96c3",
+  "original_source_sha256": "734e63b5917f6f5003936c99503d7410ca49140001eae1f941998c455c783920",
+  "amended_source_sha256": "a86ec84278f0cb0ea8fdf19b4ce0dd3be9eb1355dc247d6cce711d014e66159d",
+  "training_roots": 1680,
+  "training_candidates": 126173,
+  "locked_labels_decoded": false,
+  "time": "2026-10-14T02:18:14+00:00",
+  "whole_task_deadline": "2026-10-14T02:38:00+00:00",
+  "history": "C01 true/shuffle and C02 shuffle CV seen before amendment; historical stopped outputs preserved"
+}

@@ -1,0 +1,67 @@
+{
+  "status": "已验证通过",
+  "protocol_remote_commit": "6dd0ce851bbf4ec15cb48e99b03620c4b67e9d58",
+  "time": "2026-10-14T02:17:31+00:00",
+  "checks": [
+    {
+      "path": "project/stage1/PROTOCOL.md",
+      "expected": "ccf8f2ec2791acca607414eff16b08c9f198dac8f14d11956d494164b6150544",
+      "actual": "ccf8f2ec2791acca607414eff16b08c9f198dac8f14d11956d494164b6150544"
+    },
+    {
+      "path": "project/stage1/candidates.json",
+      "expected": "f13015086e73067fcc3702754ca74eb5484f393f204e30879c342cb1fbc149db",
+      "actual": "f13015086e73067fcc3702754ca74eb5484f393f204e30879c342cb1fbc149db"
+    },
+    {
+      "path": "project/stage1/episodes.csv",
+      "expected": "3d4092c94a6c6efbe77049382f1955c2eb44ba13ca4fb03502d5d6a24e803af3",
+      "actual": "3d4092c94a6c6efbe77049382f1955c2eb44ba13ca4fb03502d5d6a24e803af3"
+    },
+    {
+      "path": "project/stage1/split_manifest.json",
+      "expected": "a7a72148bada5ce6eedecaf7026edffd254d7ab166e755cd95ca980905391914",
+      "actual": "a7a72148bada5ce6eedecaf7026edffd254d7ab166e755cd95ca980905391914"
+    },
+    {
+      "path": "project/tools/prepare_stage1_split.py",
+      "expected": "3442c586ec280ef75a045949776b973c1a0b3b36a2637cc450a8e5cb25765cd6",
+      "actual": "3442c586ec280ef75a045949776b973c1a0b3b36a2637cc450a8e5cb25765cd6"
+    },
+    {
+      "path": "project/data/kda_s443_cf/table.jsonl.gz",
+      "expected": "3e4f137d86455e1db9e496420f365a0713e6f8b9f0bb3f6c99649aec07d5a5a2",
+      "actual": "3e4f137d86455e1db9e496420f365a0713e6f8b9f0bb3f6c99649aec07d5a5a2"
+    },
+    {
+      "path": "project/data/kda_s443_cf/features_cell0.npz",
+      "expected": "bce3b61ae2655147ff3c03ead657a94b27d19ab07147ac978c3c227cf596ac77",
+      "actual": "bce3b61ae2655147ff3c03ead657a94b27d19ab07147ac978c3c227cf596ac77"
+    },
+    {
+      "path": "project/data/kda_s443_cf/features_cell1.npz",
+      "expected": "3c82e61462c1a4c6eebd803cb8b6bd9ba139ef9e3b526f250eba9b0d69eb6e4d",
+      "actual": "3c82e61462c1a4c6eebd803cb8b6bd9ba139ef9e3b526f250eba9b0d69eb6e4d"
+    },
+    {
+      "path": "project/data/kda_s443_cf/features_cell2.npz",
+      "expected": "439ecdcad28ccbf3c0e6ad85d794aeef03081f180868736e0a5fb5cf6007b97e",
+      "actual": "439ecdcad28ccbf3c0e6ad85d794aeef03081f180868736e0a5fb5cf6007b97e"
+    },
+    {
+      "path": "project/data/kda_s443_cf/features_cell3.npz",
+      "expected": "5f11053810a76dbf55abc28196b221bacaee57e0789c12a1d107654b16aec095",
+      "actual": "5f11053810a76dbf55abc28196b221bacaee57e0789c12a1d107654b16aec095"
+    },
+    {
+      "path": "project/data/kda_s443_cf/features_cell4.npz",
+      "expected": "c92c46a1282cac36dfe4b00f54d1023c926df0e10952d6fb0d4dbde3b1e7a19c",
+      "actual": "c92c46a1282cac36dfe4b00f54d1023c926df0e10952d6fb0d4dbde3b1e7a19c"
+    },
+    {
+      "path": "project/data/kda_s443_cf/features_cell5.npz",
+      "expected": "a6fe881785f8d5d0f74cf83673d9b62bdbc307604c2ed030c4c212a234f9cbc0",
+      "actual": "a6fe881785f8d5d0f74cf83673d9b62bdbc307604c2ed030c4c212a234f9cbc0"
+    }
+  ]
+}

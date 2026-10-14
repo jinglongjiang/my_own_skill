@@ -1,0 +1,8 @@
+{
+  "status": "已验证通过",
+  "checks_passed": 13,
+  "original_checks_passed": 26,
+  "source_sha256": "a86ec84278f0cb0ea8fdf19b4ce0dd3be9eb1355dc247d6cce711d014e66159d",
+  "real_data_loaded": false,
+  "time": "2026-10-14T02:17:23+00:00"
+}

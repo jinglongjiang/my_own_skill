@@ -1,0 +1,35 @@
+{
+  "status": "已验证通过",
+  "definition": "STOP iff any group episode-primary paired absolute regret gain lower 95% CI > 0",
+  "checks": [
+    {
+      "group": "5人",
+      "gain_base_minus_shuffle": 0.0016407297727790418,
+      "ci95": [
+        -0.0006417824374384508,
+        0.0057053259856035075
+      ],
+      "triggers_stop": false
+    },
+    {
+      "group": "10人",
+      "gain_base_minus_shuffle": -0.004334455770628127,
+      "ci95": [
+        -0.015509462752429794,
+        0.005288214959990025
+      ],
+      "triggers_stop": false
+    },
+    {
+      "group": "20人",
+      "gain_base_minus_shuffle": 0.004291195548964501,
+      "ci95": [
+        -0.007901760234216692,
+        0.01763610658412569
+      ],
+      "triggers_stop": false
+    }
+  ],
+  "locked_labels_decoded": false,
+  "candidate": "C03"
+}
