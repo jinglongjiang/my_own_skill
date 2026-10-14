@@ -1,0 +1,21 @@
+{
+  "time": "2026-10-14T02:23:12+00:00",
+  "publication_remote_commit": "a921c3cc673b9b99877a0228281d8e93c426cd57",
+  "selection_sha256": "b1bebcc7a4d8cf9e0e7f7fde1b401ce72f70fce96e1fd4d9d13b6f3037ead41b",
+  "models": {
+    "true": {
+      "path": "project/stage1_outputs/amendment1/models/C03_true_final_development.joblib",
+      "sha256": "cef999bac373ecd7ed7f4e4d0a8f6369cb5238ed82511f1cd5306e65e37b2f8b",
+      "bytes": 81556,
+      "target": "failure"
+    },
+    "shuffle": {
+      "path": "project/stage1_outputs/amendment1/models/C03_shuffle_final_development.joblib",
+      "sha256": "d8442a7dafe9ea54aee458ec2c0786bbda0b46065d54592ba505f2a0156c4fb4",
+      "bytes": 83551,
+      "target": "shuffle_failure"
+    }
+  },
+  "source_label_read_passes_permitted": 1,
+  "retry_after_claim_forbidden": true
+}

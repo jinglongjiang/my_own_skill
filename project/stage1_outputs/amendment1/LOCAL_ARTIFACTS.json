@@ -1,0 +1,269 @@
+{
+  "status": "preserved",
+  "files": [
+    {
+      "path": "project/stage1_outputs/amendment1/C02_true_oof_predictions.npy",
+      "bytes": 1009512,
+      "sha256": "6c34576cef65150f80c52f68f4783067c9378e03b4d1126de11a81128c04a1f7",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/C02_true_oof_rows.jsonl",
+      "bytes": 742341,
+      "sha256": "e47774a4b7a0b824000e068e7b4b404d3b309e35c2d5c594b973a761eccacd97",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/C03_shuffle_oof_predictions.npy",
+      "bytes": 1009512,
+      "sha256": "01dc6a96c16425406bb4b5c11b7858f07f479651a06a9f026379b39ef253e12c",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/C03_shuffle_oof_rows.jsonl",
+      "bytes": 738745,
+      "sha256": "cba4e132866def5aaaa195e27ae1a6a1a30a987b7ea4e040ce2cafad2ece8d9a",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/C03_true_oof_predictions.npy",
+      "bytes": 1009512,
+      "sha256": "e247fd69b0c0a42e4a57dbf57c76f28403fa5375b231f849b1543c86872b9355",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/C03_true_oof_rows.jsonl",
+      "bytes": 738657,
+      "sha256": "5eb42f34ab6c76c53b29af1c96be6adb815a11f2f3e9d1e3d8f9dc7cb757a0f7",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/locked_shuffle_rows.jsonl",
+      "bytes": 184668,
+      "sha256": "638126a6902dfaa7f4279f82310504a7ec0b44ea901aceda4a8b8292b8bc3f7d",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/locked_true_rows.jsonl",
+      "bytes": 184696,
+      "sha256": "9565aa300dfac8dfa822087ddf6dafee3a71f8ce187df21a4c005e0d2639808f",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C02_true_fold0.joblib",
+      "bytes": 84452,
+      "sha256": "8b790129b4e54cb233cbc6266956ba7774853b4f718ee5bf3e1c8795830e6689",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C02_true_fold1.joblib",
+      "bytes": 83044,
+      "sha256": "5a5f95b1aa8bd79df28d0430498058daeea1bf2a55313086b65f34e65360d1ff",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C02_true_fold2.joblib",
+      "bytes": 83226,
+      "sha256": "b7a10e16609122a44d568e2b40b857d68f7e111c218ab9922a8a249f19879363",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C02_true_fold3.joblib",
+      "bytes": 83143,
+      "sha256": "7c531a5b7dd48c306cc81c331be79b64d757a5479a702dcda3283f84c4d13d3b",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C02_true_fold4.joblib",
+      "bytes": 83932,
+      "sha256": "8cea55f768636f5934ed24a213977646da38467426745124488d3b9d80c0a72a",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C03_shuffle_final_development.joblib",
+      "bytes": 83551,
+      "sha256": "d8442a7dafe9ea54aee458ec2c0786bbda0b46065d54592ba505f2a0156c4fb4",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C03_shuffle_fold0.joblib",
+      "bytes": 83138,
+      "sha256": "55eb6b2f8ea91e6912ee34043779b3117958cbd4b05d1de0e65c4a80142fbef4",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C03_shuffle_fold1.joblib",
+      "bytes": 82145,
+      "sha256": "b6d43483588d8c4f5f11bc7bd534d6ee546473c4ce2723fd201efeec158049e9",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C03_shuffle_fold2.joblib",
+      "bytes": 82055,
+      "sha256": "23606ed0decf65d6f169625b5e3d15f9e77460d3c1a6d503bb02430b01fabd41",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C03_shuffle_fold3.joblib",
+      "bytes": 81464,
+      "sha256": "6fae3b4fd4ce9836327b4b951455d6ea172c9447b59e12090a73665cb225e296",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C03_shuffle_fold4.joblib",
+      "bytes": 81994,
+      "sha256": "ada79816dd3bbbc641a1c5b94aeae9f0b9d3c3c8927dc186120ac808e70ed802",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C03_true_final_development.joblib",
+      "bytes": 81556,
+      "sha256": "cef999bac373ecd7ed7f4e4d0a8f6369cb5238ed82511f1cd5306e65e37b2f8b",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C03_true_fold0.joblib",
+      "bytes": 81911,
+      "sha256": "558a078dab802ff2c51bc8817c2d5aab079909de952302d4626648e898c3b050",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C03_true_fold1.joblib",
+      "bytes": 80974,
+      "sha256": "e5f4ac39301fa3f63530b172ac43c76e495990506c281a6efe026dd724323d27",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C03_true_fold2.joblib",
+      "bytes": 79665,
+      "sha256": "f46e502395c115456028985ba19e3eea6f0ca033e4be0e2436c196b27838da5f",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C03_true_fold3.joblib",
+      "bytes": 81780,
+      "sha256": "b516f82ec029c0c52d7b69a2226a79a9502175d75d97adc5e3597a0d67fefba1",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C03_true_fold4.joblib",
+      "bytes": 80547,
+      "sha256": "8e5638fa1b27d62914a0cc836f616e96228d4184576346eb2f99c679ec12d3a1",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C02_true_fold0.npy",
+      "bytes": 202472,
+      "sha256": "1f8c174e4f8f4ae433498d31635612332ef7d19a228b8383b3bdb726837b3804",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C02_true_fold1.npy",
+      "bytes": 202480,
+      "sha256": "bfadb4484b3304ab78f924b2e14f05f206bdadad160174c4dfd9bf078b2b3ab5",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C02_true_fold2.npy",
+      "bytes": 203032,
+      "sha256": "d8eaaf7355ac8f26f7c48de2fb7dcd0f8e1780b9cbe5cfb443b68f736cc84a61",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C02_true_fold3.npy",
+      "bytes": 202888,
+      "sha256": "b9083710968a44a03c4c8a42e7ab6a45bc6de47e5ceaa929448b6470b90640f3",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C02_true_fold4.npy",
+      "bytes": 199152,
+      "sha256": "6358f3692f952d448001a2d7fb6f5bf445b50d070958fdbfff5aa301ce65ae04",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C03_shuffle_final_development.npy",
+      "bytes": 1009512,
+      "sha256": "3a3d1e54d85477939ea67f8ba503db9dc1e5bc3cde558ba0f0d5c6d531b9c7c8",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C03_shuffle_fold0.npy",
+      "bytes": 202472,
+      "sha256": "f9e19f4f8d0e99ebeab9b7dae3efbe67b0dc6784bd19ae6a2ccc113f3996781d",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C03_shuffle_fold1.npy",
+      "bytes": 202480,
+      "sha256": "acc63b7efa637173922e2309be5a781b16b3f7da12492363cd6c5df2484aabd5",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C03_shuffle_fold2.npy",
+      "bytes": 203032,
+      "sha256": "8ca34d0d9e3da3247bbe601be5a564f9034627040794e2cde3c2db1bb2357189",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C03_shuffle_fold3.npy",
+      "bytes": 202888,
+      "sha256": "de60e16288b3a4031c11369e6539e4bcad754d42264153b3c2d1a1cecb5cd4f4",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C03_shuffle_fold4.npy",
+      "bytes": 199152,
+      "sha256": "e304ea7e4e97313d148ee4542efd6ef3938cfd23d1cc30885d1560b39ecd8442",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C03_true_final_development.npy",
+      "bytes": 1009512,
+      "sha256": "9ba1ee89ddc6525cae2f51ec70e532c405476928750e74beb6fc6d09bdc1fe68",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C03_true_fold0.npy",
+      "bytes": 202472,
+      "sha256": "7866adbe3e1ba9d7b1943ea1172092155051ac0c23ca01eac9647c98a7d8a734",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C03_true_fold1.npy",
+      "bytes": 202480,
+      "sha256": "92c8c8d15b430be4a14b0ee822dc8703ccd36fd177fcac6cb946f4c9e504ce32",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C03_true_fold2.npy",
+      "bytes": 203032,
+      "sha256": "269634882206fc3c6fb0fc2de6bd8188fc62f5ef13de2a7bcad28647dbbc2899",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C03_true_fold3.npy",
+      "bytes": 202888,
+      "sha256": "04b98ee5fdedca6460e14b3ea3dc9f78f29973ba891d0c3b0cb2e0b09f086d73",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/C03_true_fold4.npy",
+      "bytes": 199152,
+      "sha256": "a6b83c715553a300d413b18f0f9c35ceb24690944d799db995a50bfb73957e45",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/fit_config.json",
+      "bytes": 587,
+      "sha256": "b7f790964d8206fe030ff01fb1bcf9454bf98ba6e7bf13f2c69431d6776a7c4e",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/runtime/fit_job.npz",
+      "bytes": 20188656,
+      "sha256": "4a2b835d3085d0acd08cf559b3f8027efda37cc82366f3bed9d094ba2903df87",
+      "publication": "final selected models and compressed metric rows published; remaining artifact local"
+    }
+  ]
+}

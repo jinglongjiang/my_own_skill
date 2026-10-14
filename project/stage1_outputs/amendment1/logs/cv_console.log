@@ -1,0 +1,44 @@
+2026-10-14T02:17:35+00:00 Amended any-group shuffle gate: C01 已验证通过
+2026-10-14T02:17:37+00:00 True and shuffle OOF complete: C01 {"candidate": "C01", "regret": 0.12080845597181274, "failure": 0.17142857142857143, "reduction": -0.043568277392444406}
+PAIRED_20 C01 {"delta_true_minus_shuffle": -0.00198408988571929, "delta_true_minus_shuffle_ci95": [-0.009586157708471809, 0.005491370112824501], "gain_shuffle_minus_true": 0.00198408988571929, "gain_shuffle_minus_true_ci95": [-0.005491370112824501, 0.009586157708471809], "delta_ci98_3333_cv_bonferroni": [-0.011288765230818431, 0.007294308168041243], "failure_change_true_minus_shuffle": -0.0017857142857142857, "failure_change_true_minus_shuffle_ci95": [-0.010714285714285714, 0.007142857142857143], "n_states_regret": 558, "n_states_failure": 560, "n_episodes": 280, "n_cases": 140, "bootstrap": {"cluster": "episode", "replicates": 5000, "seed_sequence": [20261013, 0, 2, 0]}, "interpretation": "Negative Delta favors true labels; positive gain favors true labels."}
+2026-10-14T02:17:39+00:00 Amended any-group shuffle gate: C02 已验证通过
+2026-10-14T02:17:39+00:00 Fit starts: C02_true_fold0
+2026-10-14T02:17:41+00:00 Fit ends: C02_true_fold0 complete 1.72s
+2026-10-14T02:17:41+00:00 Fit starts: C02_true_fold1
+2026-10-14T02:17:42+00:00 Fit ends: C02_true_fold1 complete 1.62s
+2026-10-14T02:17:42+00:00 Fit starts: C02_true_fold2
+2026-10-14T02:17:44+00:00 Fit ends: C02_true_fold2 complete 1.57s
+2026-10-14T02:17:44+00:00 Fit starts: C02_true_fold3
+2026-10-14T02:17:46+00:00 Fit ends: C02_true_fold3 complete 1.57s
+2026-10-14T02:17:46+00:00 Fit starts: C02_true_fold4
+2026-10-14T02:17:47+00:00 Fit ends: C02_true_fold4 complete 1.52s
+2026-10-14T02:17:49+00:00 True and shuffle OOF complete: C02 {"candidate": "C02", "regret": 0.11823728767940214, "failure": 0.16428571428571428, "reduction": -0.02135799712511754}
+PAIRED_20 C02 {"delta_true_minus_shuffle": 0.008106155854535583, "delta_true_minus_shuffle_ci95": [-0.006980981858492864, 0.02293422265725275], "gain_shuffle_minus_true": -0.008106155854535583, "gain_shuffle_minus_true_ci95": [-0.02293422265725275, 0.006980981858492864], "delta_ci98_3333_cv_bonferroni": [-0.010607269308400667, 0.026560223855935185], "failure_change_true_minus_shuffle": 0.005357142857142857, "failure_change_true_minus_shuffle_ci95": [-0.014285714285714285, 0.025], "n_states_regret": 558, "n_states_failure": 560, "n_episodes": 280, "n_cases": 140, "bootstrap": {"cluster": "episode", "replicates": 5000, "seed_sequence": [20261013, 0, 2, 0]}, "interpretation": "Negative Delta favors true labels; positive gain favors true labels."}
+2026-10-14T02:17:49+00:00 Fit starts: C03_shuffle_fold0
+2026-10-14T02:17:51+00:00 Fit ends: C03_shuffle_fold0 complete 1.57s
+2026-10-14T02:17:51+00:00 Fit starts: C03_shuffle_fold1
+2026-10-14T02:17:53+00:00 Fit ends: C03_shuffle_fold1 complete 1.72s
+2026-10-14T02:17:53+00:00 Fit starts: C03_shuffle_fold2
+2026-10-14T02:17:54+00:00 Fit ends: C03_shuffle_fold2 complete 1.67s
+2026-10-14T02:17:54+00:00 Fit starts: C03_shuffle_fold3
+2026-10-14T02:17:56+00:00 Fit ends: C03_shuffle_fold3 complete 1.72s
+2026-10-14T02:17:56+00:00 Fit starts: C03_shuffle_fold4
+2026-10-14T02:17:58+00:00 Fit ends: C03_shuffle_fold4 complete 1.62s
+2026-10-14T02:18:00+00:00 Amended any-group shuffle gate: C03 已验证通过
+2026-10-14T02:18:00+00:00 Fit starts: C03_true_fold0
+2026-10-14T02:18:01+00:00 Fit ends: C03_true_fold0 complete 1.62s
+2026-10-14T02:18:01+00:00 Fit starts: C03_true_fold1
+2026-10-14T02:18:03+00:00 Fit ends: C03_true_fold1 complete 1.57s
+2026-10-14T02:18:03+00:00 Fit starts: C03_true_fold2
+2026-10-14T02:18:04+00:00 Fit ends: C03_true_fold2 complete 1.52s
+2026-10-14T02:18:04+00:00 Fit starts: C03_true_fold3
+2026-10-14T02:18:06+00:00 Fit ends: C03_true_fold3 complete 1.57s
+2026-10-14T02:18:06+00:00 Fit starts: C03_true_fold4
+2026-10-14T02:18:07+00:00 Fit ends: C03_true_fold4 complete 1.57s
+2026-10-14T02:18:09+00:00 True and shuffle OOF complete: C03 {"candidate": "C03", "regret": 0.11318684311396245, "failure": 0.15535714285714286, "reduction": 0.022268781255790425}
+PAIRED_20 C03 {"delta_true_minus_shuffle": 0.0017132549022746562, "delta_true_minus_shuffle_ci95": [-0.007304921274193311, 0.010689428145518057], "gain_shuffle_minus_true": -0.0017132549022746562, "gain_shuffle_minus_true_ci95": [-0.010689428145518057, 0.007304921274193311], "delta_ci98_3333_cv_bonferroni": [-0.009611777418396373, 0.012918405151754093], "failure_change_true_minus_shuffle": 0.0, "failure_change_true_minus_shuffle_ci95": [-0.008928571428571428, 0.008928571428571428], "n_states_regret": 558, "n_states_failure": 560, "n_episodes": 280, "n_cases": 140, "bootstrap": {"cluster": "episode", "replicates": 5000, "seed_sequence": [20261013, 0, 2, 0]}, "interpretation": "Negative Delta favors true labels; positive gain favors true labels."}
+2026-10-14T02:18:10+00:00 Fit starts: C03_true_final_development
+2026-10-14T02:18:12+00:00 Fit ends: C03_true_final_development complete 2.27s
+2026-10-14T02:18:12+00:00 Fit starts: C03_shuffle_final_development
+2026-10-14T02:18:14+00:00 Fit ends: C03_shuffle_final_development complete 2.47s
+2026-10-14T02:18:15+00:00 Both final models and selection ready for remote publication; locked labels remain sealed

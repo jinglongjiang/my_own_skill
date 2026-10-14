@@ -1,0 +1,27 @@
+{
+  "confirmed_by_parent": true,
+  "remote_commit": "a921c3cc673b9b99877a0228281d8e93c426cd57",
+  "files": [
+    {
+      "path": "project/stage1_outputs/amendment1/SELECTED_CANDIDATE.json",
+      "sha256": "b1bebcc7a4d8cf9e0e7f7fde1b401ce72f70fce96e1fd4d9d13b6f3037ead41b",
+      "git_blob_sha": "608c3cda06f375a27b767d77ba5f44366710c5e1"
+    },
+    {
+      "path": "project/tools/stage1_amended.py",
+      "sha256": "a86ec84278f0cb0ea8fdf19b4ce0dd3be9eb1355dc247d6cce711d014e66159d",
+      "git_blob_sha": "e868217e92128b777ba2cfcab747236a5c76343f"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C03_true_final_development.joblib",
+      "sha256": "cef999bac373ecd7ed7f4e4d0a8f6369cb5238ed82511f1cd5306e65e37b2f8b",
+      "git_blob_sha": "a873170787f091ec465b9c1bfb7eef4053b86121"
+    },
+    {
+      "path": "project/stage1_outputs/amendment1/models/C03_shuffle_final_development.joblib",
+      "sha256": "d8442a7dafe9ea54aee458ec2c0786bbda0b46065d54592ba505f2a0156c4fb4",
+      "git_blob_sha": "40b99b0c1f82dfa77f03639964d4d6a65a28acac"
+    }
+  ],
+  "verification": "Remote commit tree Git blob SHA matched local bytes for all four required files; draft PR head verified before locked read."
+}

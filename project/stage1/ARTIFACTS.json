@@ -1,0 +1,31 @@
+{
+  "remote_commit_confirmation_required_before_fitting": true,
+  "stage0_remote_commit": "193231e8b10dbfdfbc5bdaa0b776c79728b84312",
+  "files": [
+    {
+      "path": "project/stage1/PROTOCOL.md",
+      "sha256": "ccf8f2ec2791acca607414eff16b08c9f198dac8f14d11956d494164b6150544",
+      "bytes": 12564
+    },
+    {
+      "path": "project/stage1/candidates.json",
+      "sha256": "f13015086e73067fcc3702754ca74eb5484f393f204e30879c342cb1fbc149db",
+      "bytes": 2040
+    },
+    {
+      "path": "project/stage1/episodes.csv",
+      "sha256": "3d4092c94a6c6efbe77049382f1955c2eb44ba13ca4fb03502d5d6a24e803af3",
+      "bytes": 67747
+    },
+    {
+      "path": "project/stage1/split_manifest.json",
+      "sha256": "a7a72148bada5ce6eedecaf7026edffd254d7ab166e755cd95ca980905391914",
+      "bytes": 2690
+    },
+    {
+      "path": "project/tools/prepare_stage1_split.py",
+      "sha256": "3442c586ec280ef75a045949776b973c1a0b3b36a2637cc450a8e5cb25765cd6",
+      "bytes": 5609
+    }
+  ]
+}

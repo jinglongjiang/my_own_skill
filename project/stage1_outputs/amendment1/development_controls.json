@@ -1,0 +1,11 @@
+{
+  "status": "已验证通过",
+  "data_partition": "development only",
+  "full_table_reproduction": "project/reports/stage0_revalidation_20261013",
+  "roots": 1680,
+  "regret_roots": 1678,
+  "single_eligible_skipped": 2,
+  "maximum_absolute_difference": 1.1102230246251565e-16,
+  "integer_counts_exact": true,
+  "locked_labels_decoded": false
+}

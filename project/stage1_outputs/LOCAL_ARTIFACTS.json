@@ -1,0 +1,239 @@
+{
+  "note": "Preserved local artifacts; no further experiments after stop",
+  "files": [
+    {
+      "path": "project/stage1_outputs/C01_shuffle_oof_predictions.npy",
+      "bytes": 1009512,
+      "sha256": "d37e899efd3e72049673fc817ffe36e43e9f198a35a2e91b4c318ae1c314c047",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/C01_shuffle_oof_rows.jsonl",
+      "bytes": 744442,
+      "sha256": "ff5c9291016c24f7f69252c34acd76e38a3355f86e4daaae23acad6f689e2083",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/C01_true_oof_predictions.npy",
+      "bytes": 1009512,
+      "sha256": "9c321d671fac77fca1171f01aba45b488a13d2d8d6bf14e39bdbd69064b6b148",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/C01_true_oof_rows.jsonl",
+      "bytes": 742721,
+      "sha256": "750591dc557d57cfeb4ff1bae628604c21a45ece4d754507317d523c4014f34b",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/C02_shuffle_oof_predictions.npy",
+      "bytes": 1009512,
+      "sha256": "6648ae4cf0e66e7cc65b0ac02c4bde346d7f9ef57dc76ae3595e68c4f12d1731",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/C02_shuffle_oof_rows.jsonl",
+      "bytes": 743365,
+      "sha256": "930ef344944d9aba3ef6be8c67236daf14ae4d5a86f1a4c460e1becb0e916dd2",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C01_shuffle_fold0.joblib",
+      "bytes": 939,
+      "sha256": "3dd107161f005a109f12d87140003c1cafd55f037b835738fb66d94c46b509bc",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C01_shuffle_fold1.joblib",
+      "bytes": 945,
+      "sha256": "08978eb653e69a50b28981b9a9cc573fb1e8764daea7285a8445032951238959",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C01_shuffle_fold2.joblib",
+      "bytes": 944,
+      "sha256": "e7accb31a16496bf13f8625307eba7e16407a585b90c32e855ad305e00098781",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C01_shuffle_fold3.joblib",
+      "bytes": 944,
+      "sha256": "ba6a3a201f8fb396e9b38a8bf1e401c80d505f69ab553e98d33cc79f85b208ec",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C01_shuffle_fold4.joblib",
+      "bytes": 947,
+      "sha256": "4cb70f93c85e8c759d73fa8297dd2e1134e71f7264a05f594cdc103f583011ba",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C01_true_fold0.joblib",
+      "bytes": 937,
+      "sha256": "0afe5f2c9fc30ee47c7f246d04b285dfc962415d0e5112f957c9521baa03a130",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C01_true_fold1.joblib",
+      "bytes": 946,
+      "sha256": "426b760a7a0cd69eb5bd3000dc3514ef372c880ab0e8aa52c64b5d722ac3d98d",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C01_true_fold2.joblib",
+      "bytes": 944,
+      "sha256": "ca79cb87c5ebfc1b9d5da31d435671eeb66cbc4e280c5582b863978785f2b57b",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C01_true_fold3.joblib",
+      "bytes": 942,
+      "sha256": "16fab4bb44e81dbcc7de6f6d8ed39b2955cef40c18f6cb220c32159112555796",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C01_true_fold4.joblib",
+      "bytes": 943,
+      "sha256": "22796fc3ecb940711b6782081d613c6c2fd4593f26e70a1c8c8d5489b9cc4530",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C02_shuffle_fold0.joblib",
+      "bytes": 84331,
+      "sha256": "1db4fd6bce02888f0ed5f42ac8b905d715c7bc5b78b964465212ba709d9e79f9",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C02_shuffle_fold1.joblib",
+      "bytes": 84600,
+      "sha256": "e2ee937948c577a2d8b4b540691d0b0593bd1f927b50cd57022600585809007b",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C02_shuffle_fold2.joblib",
+      "bytes": 83609,
+      "sha256": "e03fecab6c4d9eb354ab082fc86f4002e209d8e1b0e853ee80d053b65ccf5ccb",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C02_shuffle_fold3.joblib",
+      "bytes": 84771,
+      "sha256": "f9bac51a2c872e0abeb12aaf1d5067fbbebef7d99dc82158e6220f565dd168e8",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/models/C02_shuffle_fold4.joblib",
+      "bytes": 84757,
+      "sha256": "6c77b91c859493134806f540296552e7e700469d85086a78cb10199679c7432e",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/oof_choices.csv",
+      "bytes": 77750,
+      "sha256": "edcd1dfdd10684ff00ce7328687f4925f3e4a1291f49c1d6cdc4917f591b733f",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C01_shuffle_fold0.npy",
+      "bytes": 202472,
+      "sha256": "a0842c3bfd8ac5a1182c2cbb73047aae1f222c93b6adf31730885f83fbe807b7",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C01_shuffle_fold1.npy",
+      "bytes": 202480,
+      "sha256": "ebb3347d2633257a1b0259f6ffdbe04385b2bb99dfdd85c73dcb372ea0e51241",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C01_shuffle_fold2.npy",
+      "bytes": 203032,
+      "sha256": "1cfe921ba429f6e13039330a5e0dfc217bc37ce3a74e89ff8866ea829342f3e7",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C01_shuffle_fold3.npy",
+      "bytes": 202888,
+      "sha256": "066d835b7cf37ea19e2e76b95bac25e0d16140112edb2f107542283cd0d1c08e",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C01_shuffle_fold4.npy",
+      "bytes": 199152,
+      "sha256": "fcfa2efc22853d440de87d2e25c0aaae0d24663b445733c5f1da339553b33418",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C01_true_fold0.npy",
+      "bytes": 202472,
+      "sha256": "b36607690702a8504f4e529f843e71aeb704a0cf499ead02be982d05dea7ca5b",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C01_true_fold1.npy",
+      "bytes": 202480,
+      "sha256": "f0b56591bd68484ea21dfe366f1258add7194e1423fc9771d848bc030ebfb732",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C01_true_fold2.npy",
+      "bytes": 203032,
+      "sha256": "979e2581983f211c68467e1c5faa898d118818221f84a79eb48c734fb9624a38",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C01_true_fold3.npy",
+      "bytes": 202888,
+      "sha256": "db33c51edd5a21bd98b3258ea86b3cfae64a8328bb3f1114ddef73829dfdb358",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C01_true_fold4.npy",
+      "bytes": 199152,
+      "sha256": "f46bd8e71d9085826dfc74b334a3029be14501023e871dce786a09069bf5a91f",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C02_shuffle_fold0.npy",
+      "bytes": 202472,
+      "sha256": "2398bc183644075b27e1569581ced365b9944b2f3031c13d6257cb54adca2300",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C02_shuffle_fold1.npy",
+      "bytes": 202480,
+      "sha256": "8eb2788aaa2a32d70d0fb910ffb3e491402d8f9c22b1afb793a9c23acfcaf06e",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C02_shuffle_fold2.npy",
+      "bytes": 203032,
+      "sha256": "34f20425714d08d1a851816533ab1105e0bef7db900dabda43739b1bdc21a807",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C02_shuffle_fold3.npy",
+      "bytes": 202888,
+      "sha256": "7f8b1403455f435b3635ae2ad8da991ea5f75c753fcdfa448f841956f87b9efb",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/C02_shuffle_fold4.npy",
+      "bytes": 199152,
+      "sha256": "67fd3e10cb9e9cc5ff58b4cdda6ae7c95b4ec505b09287ce3e76807715d2348f",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/fit_config.json",
+      "bytes": 481,
+      "sha256": "76550ec4e533cc51ca9e2e6d4b037f0c51f72b077e55bc26a0e4963061991e92",
+      "publication": "local only"
+    },
+    {
+      "path": "project/stage1_outputs/runtime/fit_job.npz",
+      "bytes": 10706152,
+      "sha256": "d6330abcaf0d7c05d11a9370037b0ddc8d1e16373060dc5382bda6b41b118c02",
+      "publication": "local only"
+    }
+  ]
+}

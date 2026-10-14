@@ -1,0 +1,224 @@
+{
+  "5人": {
+    "episode_primary": {
+      "delta_true_minus_shuffle": -0.0003712990619339244,
+      "delta_true_minus_shuffle_ci95": [
+        -0.0017868170800940976,
+        0.0020474994442593597
+      ],
+      "gain_shuffle_minus_true": 0.0003712990619339244,
+      "gain_shuffle_minus_true_ci95": [
+        -0.0020474994442593597,
+        0.0017868170800940976
+      ],
+      "delta_ci98_3333_cv_bonferroni": [
+        -0.001926241984821077,
+        0.0028393728325253388
+      ],
+      "failure_change_true_minus_shuffle": 0.0017857142857142857,
+      "failure_change_true_minus_shuffle_ci95": [
+        0.0,
+        0.005357142857142857
+      ],
+      "n_states_regret": 560,
+      "n_states_failure": 560,
+      "n_episodes": 280,
+      "n_cases": 140,
+      "bootstrap": {
+        "cluster": "episode",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          0,
+          0,
+          0
+        ]
+      },
+      "interpretation": "Negative Delta favors true labels; positive gain favors true labels."
+    },
+    "case_sensitivity": {
+      "delta_true_minus_shuffle": -0.0003712990619339244,
+      "delta_true_minus_shuffle_ci95": [
+        -0.0018008384881003522,
+        0.0020168211305182262
+      ],
+      "gain_shuffle_minus_true": 0.0003712990619339244,
+      "gain_shuffle_minus_true_ci95": [
+        -0.0020168211305182262,
+        0.0018008384881003522
+      ],
+      "delta_ci98_3333_cv_bonferroni": [
+        -0.0019728819945264253,
+        0.0028571696270332223
+      ],
+      "failure_change_true_minus_shuffle": 0.0017857142857142857,
+      "failure_change_true_minus_shuffle_ci95": [
+        0.0,
+        0.005357142857142857
+      ],
+      "n_states_regret": 560,
+      "n_states_failure": 560,
+      "n_episodes": 280,
+      "n_cases": 140,
+      "bootstrap": {
+        "cluster": "case",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          0,
+          0,
+          1
+        ]
+      },
+      "interpretation": "Negative Delta favors true labels; positive gain favors true labels."
+    }
+  },
+  "10人": {
+    "episode_primary": {
+      "delta_true_minus_shuffle": -0.0021074631152580726,
+      "delta_true_minus_shuffle_ci95": [
+        -0.003742324687140569,
+        -0.0008492945988958763
+      ],
+      "gain_shuffle_minus_true": 0.0021074631152580726,
+      "gain_shuffle_minus_true_ci95": [
+        0.0008492945988958763,
+        0.003742324687140569
+      ],
+      "delta_ci98_3333_cv_bonferroni": [
+        -0.00421602047627529,
+        -0.0006473707436766344
+      ],
+      "failure_change_true_minus_shuffle": 0.0,
+      "failure_change_true_minus_shuffle_ci95": [
+        0.0,
+        0.0
+      ],
+      "n_states_regret": 560,
+      "n_states_failure": 560,
+      "n_episodes": 280,
+      "n_cases": 140,
+      "bootstrap": {
+        "cluster": "episode",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          0,
+          1,
+          0
+        ]
+      },
+      "interpretation": "Negative Delta favors true labels; positive gain favors true labels."
+    },
+    "case_sensitivity": {
+      "delta_true_minus_shuffle": -0.0021074631152580726,
+      "delta_true_minus_shuffle_ci95": [
+        -0.0037564467896448466,
+        -0.0008294876860650733
+      ],
+      "gain_shuffle_minus_true": 0.0021074631152580726,
+      "gain_shuffle_minus_true_ci95": [
+        0.0008294876860650733,
+        0.0037564467896448466
+      ],
+      "delta_ci98_3333_cv_bonferroni": [
+        -0.004307887387211033,
+        -0.000647487893436585
+      ],
+      "failure_change_true_minus_shuffle": 0.0,
+      "failure_change_true_minus_shuffle_ci95": [
+        0.0,
+        0.0
+      ],
+      "n_states_regret": 560,
+      "n_states_failure": 560,
+      "n_episodes": 280,
+      "n_cases": 140,
+      "bootstrap": {
+        "cluster": "case",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          0,
+          1,
+          1
+        ]
+      },
+      "interpretation": "Negative Delta favors true labels; positive gain favors true labels."
+    }
+  },
+  "20人": {
+    "episode_primary": {
+      "delta_true_minus_shuffle": -0.00198408988571929,
+      "delta_true_minus_shuffle_ci95": [
+        -0.009586157708471809,
+        0.005491370112824501
+      ],
+      "gain_shuffle_minus_true": 0.00198408988571929,
+      "gain_shuffle_minus_true_ci95": [
+        -0.005491370112824501,
+        0.009586157708471809
+      ],
+      "delta_ci98_3333_cv_bonferroni": [
+        -0.011288765230818431,
+        0.007294308168041243
+      ],
+      "failure_change_true_minus_shuffle": -0.0017857142857142857,
+      "failure_change_true_minus_shuffle_ci95": [
+        -0.010714285714285714,
+        0.007142857142857143
+      ],
+      "n_states_regret": 558,
+      "n_states_failure": 560,
+      "n_episodes": 280,
+      "n_cases": 140,
+      "bootstrap": {
+        "cluster": "episode",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          0,
+          2,
+          0
+        ]
+      },
+      "interpretation": "Negative Delta favors true labels; positive gain favors true labels."
+    },
+    "case_sensitivity": {
+      "delta_true_minus_shuffle": -0.00198408988571929,
+      "delta_true_minus_shuffle_ci95": [
+        -0.009494052232128685,
+        0.00564272614684269
+      ],
+      "gain_shuffle_minus_true": 0.00198408988571929,
+      "gain_shuffle_minus_true_ci95": [
+        -0.00564272614684269,
+        0.009494052232128685
+      ],
+      "delta_ci98_3333_cv_bonferroni": [
+        -0.011395758237497179,
+        0.007101143900444056
+      ],
+      "failure_change_true_minus_shuffle": -0.0017857142857142857,
+      "failure_change_true_minus_shuffle_ci95": [
+        -0.010714285714285714,
+        0.007142857142857143
+      ],
+      "n_states_regret": 558,
+      "n_states_failure": 560,
+      "n_episodes": 280,
+      "n_cases": 140,
+      "bootstrap": {
+        "cluster": "case",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          0,
+          2,
+          1
+        ]
+      },
+      "interpretation": "Negative Delta favors true labels; positive gain favors true labels."
+    }
+  }
+}

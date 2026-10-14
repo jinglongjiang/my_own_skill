@@ -1,0 +1,10 @@
+base_commit=dd1ea89a18599a0cd01484097561248f9acb590a
+branch=dots/stage0-validation
+utc=2026-10-13T16:30:12Z
+Python 3.12.14
+executable=/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3
+numpy=2.3.5
+TMPDIR=/workspace/scratch/398b79b6ce27/my_own_skill/project/reports/stage0_20261013/runtime/tmp
+PYTHONPYCACHEPREFIX=/workspace/scratch/398b79b6ce27/my_own_skill/project/reports/stage0_20261013/runtime/pycache
+PYTHONDONTWRITEBYTECODE=1
+CUDA_VISIBLE_DEVICES=

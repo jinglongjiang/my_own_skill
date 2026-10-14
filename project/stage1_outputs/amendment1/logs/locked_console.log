@@ -1,0 +1,237 @@
+{
+  "status": "已验证通过",
+  "verdict": "INCONCLUSIVE",
+  "selected_candidate": "C03",
+  "twenty_person_primary": {
+    "n_states_failure": 140,
+    "n_states_regret": 139,
+    "n_episodes": 70,
+    "n_cases": 35,
+    "regret_reduction": 0.11333543027499947,
+    "regret_reduction_ci95": [
+      -0.1951224108964728,
+      0.289583980757126
+    ],
+    "regret_reduction_ci98_3333_cv_bonferroni": null,
+    "paired_regret_gain": 0.009623983586494689,
+    "paired_regret_gain_ci95": [
+      -0.011099038410275217,
+      0.03228018967934364
+    ],
+    "failure_change_candidate_minus_base": -0.007142857142857143,
+    "failure_change_ci95": [
+      -0.03571428571428571,
+      0.014285714285714285
+    ],
+    "failure_change_comparable_subset": -0.007194244604316547,
+    "failure_change_comparable_subset_ci95": [
+      -0.03571428571428571,
+      0.014492753623188406
+    ],
+    "bootstrap": {
+      "cluster": "episode",
+      "replicates": 5000,
+      "seed_sequence": [
+        20261013,
+        1,
+        2,
+        0
+      ],
+      "invalid_regret_ratio_replicates": 0
+    },
+    "base": {
+      "regret_mean": 0.08491593108300603,
+      "regret_mean_ci95": [
+        0.042254479377537076,
+        0.13587969542135778
+      ],
+      "failure_rate": 0.17142857142857143,
+      "failure_rate_ci95": [
+        0.08571428571428572,
+        0.2571428571428571
+      ],
+      "failure_rate_comparable_subset": 0.17266187050359713,
+      "failure_rate_comparable_subset_ci95": [
+        0.08633093525179857,
+        0.2608695652173913
+      ]
+    },
+    "candidate": {
+      "regret_mean": 0.07529194749651136,
+      "regret_mean_ci95": [
+        0.040773101112304665,
+        0.11616580517916815
+      ],
+      "failure_rate": 0.16428571428571428,
+      "failure_rate_ci95": [
+        0.08571428571428572,
+        0.25
+      ],
+      "failure_rate_comparable_subset": 0.16546762589928057,
+      "failure_rate_comparable_subset_ci95": [
+        0.08571428571428572,
+        0.25
+      ]
+    },
+    "random": {
+      "regret_mean": 0.09470391241746572,
+      "regret_mean_ci95": [
+        0.06645393098136176,
+        0.12465462221326519
+      ],
+      "failure_rate": 0.17593089681551888,
+      "failure_rate_ci95": [
+        0.10510893882388582,
+        0.25174563775758113
+      ],
+      "failure_rate_comparable_subset": 0.1771965867206665,
+      "failure_rate_comparable_subset_ci95": [
+        0.10624073925131722,
+        0.254210752695923
+      ]
+    },
+    "random_top5": {
+      "regret_mean": 0.08973941333216764,
+      "regret_mean_ci95": [
+        0.05988856845906002,
+        0.12359734407898317
+      ],
+      "failure_rate": 0.17142857142857143,
+      "failure_rate_ci95": [
+        0.09999999999999999,
+        0.24860714285714236
+      ],
+      "failure_rate_comparable_subset": 0.17266187050359713,
+      "failure_rate_comparable_subset_ci95": [
+        0.1,
+        0.2514285714285714
+      ]
+    },
+    "oracle_top5": {
+      "regret_mean": 0.016560022816495792,
+      "regret_mean_ci95": [
+        0.008708943079870109,
+        0.028339524954709427
+      ],
+      "failure_rate": 0.11428571428571428,
+      "failure_rate_ci95": [
+        0.05,
+        0.19285714285714287
+      ],
+      "failure_rate_comparable_subset": 0.11510791366906475,
+      "failure_rate_comparable_subset_ci95": [
+        0.05,
+        0.19285714285714287
+      ]
+    },
+    "tail": {
+      "base_top1_share": {
+        "point": 0.08871829544818124,
+        "ci95": [
+          0.05534327134126214,
+          0.16901024672708906
+        ]
+      },
+      "drop_base_top1_reduction": {
+        "point": 0.12436925893375575,
+        "ci95": [
+          -0.2465505006290068,
+          0.3135579989096161
+        ]
+      },
+      "base_top3_share": {
+        "point": 0.2613630930592177,
+        "ci95": [
+          0.16502058611662537,
+          0.43773991377329446
+        ]
+      },
+      "drop_base_top3_reduction": {
+        "point": 0.003165155608515226,
+        "ci95": [
+          -0.39641236981688627,
+          0.34148083024224646
+        ]
+      },
+      "median_base": {
+        "point": 0.01414000922271863,
+        "ci95": [
+          0.008261686238355881,
+          0.018603144426189773
+        ]
+      },
+      "median_candidate": {
+        "point": 0.014709150017418238,
+        "ci95": [
+          0.008303411926428361,
+          0.01959694316445143
+        ]
+      },
+      "median_difference": {
+        "point": -0.0005691407946996074,
+        "ci95": [
+          -0.0037269650103556318,
+          0.0019275913181923676
+        ]
+      },
+      "top1_case_share_absolute_gain": {
+        "point": 0.2542801367162001,
+        "ci95": [
+          0.2467751447082667,
+          0.7199311598477685
+        ]
+      },
+      "top3_case_share_absolute_gain": {
+        "point": 0.6776437183136627,
+        "ci95": [
+          0.6399294371496478,
+          0.9419577610602438
+        ]
+      }
+    }
+  },
+  "twenty_person_paired": {
+    "delta_true_minus_shuffle": -0.012025664312332332,
+    "delta_true_minus_shuffle_ci95": [
+      -0.0291862130040385,
+      5.1269034114555615e-05
+    ],
+    "gain_shuffle_minus_true": 0.012025664312332332,
+    "gain_shuffle_minus_true_ci95": [
+      -5.1269034114555615e-05,
+      0.0291862130040385
+    ],
+    "delta_ci98_3333_cv_bonferroni": null,
+    "failure_change_true_minus_shuffle": -0.014285714285714285,
+    "failure_change_true_minus_shuffle_ci95": [
+      -0.03571428571428571,
+      0.0
+    ],
+    "n_states_regret": 139,
+    "n_states_failure": 140,
+    "n_episodes": 70,
+    "n_cases": 35,
+    "bootstrap": {
+      "cluster": "episode",
+      "replicates": 5000,
+      "seed_sequence": [
+        20261013,
+        1,
+        2,
+        0
+      ]
+    },
+    "interpretation": "Negative Delta favors true labels; positive gain favors true labels."
+  },
+  "source_label_read_passes": 1,
+  "publication_remote_commit": "a921c3cc673b9b99877a0228281d8e93c426cd57",
+  "no_further_locked_reads_or_fits": true,
+  "time": "2026-10-14T02:23:16+00:00",
+  "limitations": [
+    "Post-CV user amendment",
+    "Single training seed",
+    "Scalar inputs only",
+    "Historical stage0 aggregate exposure",
+    "Mother-policy continuation, no closed-loop claim"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "maximum_candidates": 3,
+  "candidate_order": ["C01", "C02", "C03"],
+  "feature_names": ["reward", "value", "clearance", "command_vx", "command_vy", "command_speed", "baseline_rank", "gap_to_first", "pred_terminal"],
+  "source_allowlist": ["rewards", "values", "clearance", "commands", "final_scores", "pred_terminal", "eligible"],
+  "sample_weight": "1 / number of eligible candidates in the root; every training root has total weight 1",
+  "fit_timeout_seconds": 1200,
+  "cpu_threads": 2,
+  "shuffle_seed_salt": "dots-stage1-shuffle-v1|20261013|",
+  "candidates": [
+    {
+      "id": "C01",
+      "estimator": "sklearn.linear_model.Ridge",
+      "target": "G_A",
+      "preprocessing": "Training-fold-only weighted mean and population standard deviation using root-balanced weights; zero-variance scale becomes 1",
+      "parameters": {"alpha": 10.0, "fit_intercept": true, "solver": "cholesky"},
+      "decision": "argmax predicted G_A among all eligible candidates"
+    },
+    {
+      "id": "C02",
+      "estimator": "sklearn.ensemble.HistGradientBoostingRegressor",
+      "target": "G_A",
+      "preprocessing": "none",
+      "parameters": {"loss": "squared_error", "learning_rate": 0.05, "max_iter": 120, "max_leaf_nodes": 15, "max_depth": null, "min_samples_leaf": 100, "l2_regularization": 1.0, "max_bins": 64, "early_stopping": false, "random_state": 271828},
+      "decision": "argmax predicted G_A among all eligible candidates"
+    },
+    {
+      "id": "C03",
+      "estimator": "sklearn.ensemble.HistGradientBoostingClassifier",
+      "target": "1 if branch_outcome != success else 0",
+      "preprocessing": "none",
+      "parameters": {"loss": "log_loss", "learning_rate": 0.05, "max_iter": 120, "max_leaf_nodes": 15, "max_depth": null, "min_samples_leaf": 100, "l2_regularization": 1.0, "max_bins": 64, "early_stopping": false, "random_state": 271828},
+      "k": 5,
+      "lambda": 0.1,
+      "decision": "argmax final_scores - 0.1 * predicted failure probability within baseline top 5 eligible candidates"
+    }
+  ]
+}

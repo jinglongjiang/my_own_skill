@@ -1,0 +1,12 @@
+{
+  "status": "已验证通过",
+  "winner": {
+    "candidate": "C03",
+    "regret": 0.11318684311396245,
+    "failure": 0.15535714285714286,
+    "reduction": 0.022268781255790425
+  },
+  "locked_labels_decoded": false,
+  "reason": "CV and dual final fits complete; wait for remote publication",
+  "time": "2026-10-14T02:18:14+00:00"
+}

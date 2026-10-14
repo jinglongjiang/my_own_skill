@@ -1,0 +1,959 @@
+{
+  "5人": {
+    "episode_primary": {
+      "n_states_failure": 560,
+      "n_states_regret": 560,
+      "n_episodes": 280,
+      "n_cases": 140,
+      "regret_reduction": -0.0041752424389893215,
+      "regret_reduction_ci95": [
+        -0.9200820541653273,
+        0.43898735634471137
+      ],
+      "regret_reduction_ci98_3333_cv_bonferroni": [
+        -1.18614730447595,
+        0.508639578193795
+      ],
+      "paired_regret_gain": -6.43940173939991e-05,
+      "paired_regret_gain_ci95": [
+        -0.008871886575919204,
+        0.010341510335073028
+      ],
+      "failure_change_candidate_minus_base": -0.0035714285714285713,
+      "failure_change_ci95": [
+        -0.014285714285714285,
+        0.005357142857142857
+      ],
+      "failure_change_comparable_subset": -0.0035714285714285713,
+      "failure_change_comparable_subset_ci95": [
+        -0.014285714285714285,
+        0.005357142857142857
+      ],
+      "bootstrap": {
+        "cluster": "episode",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          0,
+          0,
+          0
+        ],
+        "invalid_regret_ratio_replicates": 0
+      },
+      "base": {
+        "regret_mean": 0.015422821149898689,
+        "regret_mean_ci95": [
+          0.008179008006563121,
+          0.025592279874670384
+        ],
+        "failure_rate": 0.017857142857142856,
+        "failure_rate_ci95": [
+          0.0035714285714285713,
+          0.03571428571428571
+        ],
+        "failure_rate_comparable_subset": 0.017857142857142856,
+        "failure_rate_comparable_subset_ci95": [
+          0.0035714285714285713,
+          0.03571428571428571
+        ]
+      },
+      "candidate": {
+        "regret_mean": 0.015487215167292685,
+        "regret_mean_ci95": [
+          0.01088943411628576,
+          0.021580596875607764
+        ],
+        "failure_rate": 0.014285714285714285,
+        "failure_rate_ci95": [
+          0.0035714285714285713,
+          0.026785714285714284
+        ],
+        "failure_rate_comparable_subset": 0.014285714285714285,
+        "failure_rate_comparable_subset_ci95": [
+          0.0035714285714285713,
+          0.026785714285714284
+        ]
+      },
+      "random": {
+        "regret_mean": 0.023943608385817404,
+        "regret_mean_ci95": [
+          0.016488807562645487,
+          0.03408092302805402
+        ],
+        "failure_rate": 0.01861011904761905,
+        "failure_rate_ci95": [
+          0.006616592261904766,
+          0.034067485119047614
+        ],
+        "failure_rate_comparable_subset": 0.01861011904761905,
+        "failure_rate_comparable_subset_ci95": [
+          0.006616592261904766,
+          0.034067485119047614
+        ]
+      },
+      "random_top5": {
+        "regret_mean": 0.015391388239407751,
+        "regret_mean_ci95": [
+          0.010259469980295439,
+          0.021881177246913196
+        ],
+        "failure_rate": 0.01607142857142857,
+        "failure_rate_ci95": [
+          0.004285714285714286,
+          0.03107142857142857
+        ],
+        "failure_rate_comparable_subset": 0.01607142857142857,
+        "failure_rate_comparable_subset_ci95": [
+          0.004285714285714286,
+          0.03107142857142857
+        ]
+      },
+      "oracle_top5": {
+        "regret_mean": 0.006026991624706157,
+        "regret_mean_ci95": [
+          0.003273182494337322,
+          0.010910671821267048
+        ],
+        "failure_rate": 0.0125,
+        "failure_rate_ci95": [
+          0.0017857142857142857,
+          0.026785714285714284
+        ],
+        "failure_rate_comparable_subset": 0.0125,
+        "failure_rate_comparable_subset_ci95": [
+          0.0017857142857142857,
+          0.026785714285714284
+        ]
+      },
+      "tail": {
+        "base_top1_share": {
+          "point": 0.12853708195150412,
+          "ci95": [
+            0.039638468435187174,
+            0.1947920777706742
+          ]
+        },
+        "drop_base_top1_reduction": {
+          "point": -0.1499432767095808,
+          "ci95": [
+            -1.1531014269440005,
+            0.38855535418279247
+          ]
+        },
+        "base_top3_share": {
+          "point": 0.3789486119711968,
+          "ci95": [
+            0.09480008168938026,
+            0.427568710072902
+          ]
+        },
+        "drop_base_top3_reduction": {
+          "point": -0.5895234856780791,
+          "ci95": [
+            -1.4034435020482867,
+            0.2666170683457736
+          ]
+        },
+        "median_base": {
+          "point": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "median_candidate": {
+          "point": 0.007912226849054182,
+          "ci95": [
+            0.007547192872036423,
+            0.008276278243119883
+          ]
+        },
+        "median_difference": {
+          "point": -0.007912226849054182,
+          "ci95": [
+            -0.008276278243119883,
+            -0.007547192872036423
+          ]
+        },
+        "top1_case_share_absolute_gain": {
+          "point": 0.21375941387460498,
+          "ci95": [
+            0.14984300507926163,
+            0.5090222145705638
+          ]
+        },
+        "top3_case_share_absolute_gain": {
+          "point": 0.4515732905369448,
+          "ci95": [
+            0.32350969086637255,
+            0.7150078688418212
+          ]
+        }
+      }
+    },
+    "case_sensitivity": {
+      "n_states_failure": 560,
+      "n_states_regret": 560,
+      "n_episodes": 280,
+      "n_cases": 140,
+      "regret_reduction": -0.0041752424389893215,
+      "regret_reduction_ci95": [
+        -0.9233406032376067,
+        0.43740202290882146
+      ],
+      "regret_reduction_ci98_3333_cv_bonferroni": [
+        -1.1499602506080402,
+        0.5042787998619748
+      ],
+      "paired_regret_gain": -6.43940173939991e-05,
+      "paired_regret_gain_ci95": [
+        -0.008967183662639691,
+        0.010715631545949442
+      ],
+      "failure_change_candidate_minus_base": -0.0035714285714285713,
+      "failure_change_ci95": [
+        -0.014285714285714285,
+        0.005357142857142857
+      ],
+      "failure_change_comparable_subset": -0.0035714285714285713,
+      "failure_change_comparable_subset_ci95": [
+        -0.014285714285714285,
+        0.005357142857142857
+      ],
+      "bootstrap": {
+        "cluster": "case",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          0,
+          0,
+          1
+        ],
+        "invalid_regret_ratio_replicates": 0
+      },
+      "base": {
+        "regret_mean": 0.015422821149898689,
+        "regret_mean_ci95": [
+          0.008303881498715672,
+          0.02589150978406783
+        ],
+        "failure_rate": 0.017857142857142856,
+        "failure_rate_ci95": [
+          0.0035714285714285713,
+          0.03571428571428571
+        ],
+        "failure_rate_comparable_subset": 0.017857142857142856,
+        "failure_rate_comparable_subset_ci95": [
+          0.0035714285714285713,
+          0.03571428571428571
+        ]
+      },
+      "candidate": {
+        "regret_mean": 0.015487215167292685,
+        "regret_mean_ci95": [
+          0.011003909445737658,
+          0.021495522375763878
+        ],
+        "failure_rate": 0.014285714285714285,
+        "failure_rate_ci95": [
+          0.0035714285714285713,
+          0.026785714285714284
+        ],
+        "failure_rate_comparable_subset": 0.014285714285714285,
+        "failure_rate_comparable_subset_ci95": [
+          0.0035714285714285713,
+          0.026785714285714284
+        ]
+      },
+      "random": {
+        "regret_mean": 0.023943608385817404,
+        "regret_mean_ci95": [
+          0.016668321521983928,
+          0.033811617140535946
+        ],
+        "failure_rate": 0.01861011904761905,
+        "failure_rate_ci95": [
+          0.006629464285714286,
+          0.03385040922619047
+        ],
+        "failure_rate_comparable_subset": 0.01861011904761905,
+        "failure_rate_comparable_subset_ci95": [
+          0.006629464285714286,
+          0.03385040922619047
+        ]
+      },
+      "random_top5": {
+        "regret_mean": 0.015391388239407751,
+        "regret_mean_ci95": [
+          0.010494322756163858,
+          0.021694596970279475
+        ],
+        "failure_rate": 0.01607142857142857,
+        "failure_rate_ci95": [
+          0.004642857142857143,
+          0.03071428571428571
+        ],
+        "failure_rate_comparable_subset": 0.01607142857142857,
+        "failure_rate_comparable_subset_ci95": [
+          0.004642857142857143,
+          0.03071428571428571
+        ]
+      },
+      "oracle_top5": {
+        "regret_mean": 0.006026991624706157,
+        "regret_mean_ci95": [
+          0.0033042777263927827,
+          0.010717233097529687
+        ],
+        "failure_rate": 0.0125,
+        "failure_rate_ci95": [
+          0.0017857142857142857,
+          0.026785714285714284
+        ],
+        "failure_rate_comparable_subset": 0.0125,
+        "failure_rate_comparable_subset_ci95": [
+          0.0017857142857142857,
+          0.026785714285714284
+        ]
+      }
+    }
+  },
+  "10人": {
+    "episode_primary": {
+      "n_states_failure": 560,
+      "n_states_regret": 560,
+      "n_episodes": 280,
+      "n_cases": 140,
+      "regret_reduction": -0.1835543122698425,
+      "regret_reduction_ci95": [
+        -0.48169520461637305,
+        0.016299681918819024
+      ],
+      "regret_reduction_ci98_3333_cv_bonferroni": [
+        -0.5654463630406754,
+        0.05433184364159882
+      ],
+      "paired_regret_gain": -0.007237429326866123,
+      "paired_regret_gain_ci95": [
+        -0.015236856807117295,
+        0.0007158253858890987
+      ],
+      "failure_change_candidate_minus_base": 0.0035714285714285713,
+      "failure_change_ci95": [
+        -0.005357142857142857,
+        0.014285714285714285
+      ],
+      "failure_change_comparable_subset": 0.0035714285714285713,
+      "failure_change_comparable_subset_ci95": [
+        -0.005357142857142857,
+        0.014285714285714285
+      ],
+      "bootstrap": {
+        "cluster": "episode",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          0,
+          1,
+          0
+        ],
+        "invalid_regret_ratio_replicates": 0
+      },
+      "base": {
+        "regret_mean": 0.03942936146455881,
+        "regret_mean_ci95": [
+          0.025652104613776722,
+          0.056144026809508044
+        ],
+        "failure_rate": 0.04642857142857143,
+        "failure_rate_ci95": [
+          0.025,
+          0.07142857142857142
+        ],
+        "failure_rate_comparable_subset": 0.04642857142857143,
+        "failure_rate_comparable_subset_ci95": [
+          0.025,
+          0.07142857142857142
+        ]
+      },
+      "candidate": {
+        "regret_mean": 0.04666679079142493,
+        "regret_mean_ci95": [
+          0.033259212253198646,
+          0.06248246481167933
+        ],
+        "failure_rate": 0.05,
+        "failure_rate_ci95": [
+          0.02857142857142857,
+          0.07321428571428572
+        ],
+        "failure_rate_comparable_subset": 0.05,
+        "failure_rate_comparable_subset_ci95": [
+          0.02857142857142857,
+          0.07321428571428572
+        ]
+      },
+      "random": {
+        "regret_mean": 0.05673051933004038,
+        "regret_mean_ci95": [
+          0.04406771742577574,
+          0.07167523603330513
+        ],
+        "failure_rate": 0.05575049289311001,
+        "failure_rate_ci95": [
+          0.034862589600136475,
+          0.07961455640078778
+        ],
+        "failure_rate_comparable_subset": 0.05575049289311001,
+        "failure_rate_comparable_subset_ci95": [
+          0.034862589600136475,
+          0.07961455640078778
+        ]
+      },
+      "random_top5": {
+        "regret_mean": 0.04636743841524719,
+        "regret_mean_ci95": [
+          0.034261004358646756,
+          0.060034722411034115
+        ],
+        "failure_rate": 0.050238095238095234,
+        "failure_rate_ci95": [
+          0.029520833333333343,
+          0.07321726190476187
+        ],
+        "failure_rate_comparable_subset": 0.050238095238095234,
+        "failure_rate_comparable_subset_ci95": [
+          0.029520833333333343,
+          0.07321726190476187
+        ]
+      },
+      "oracle_top5": {
+        "regret_mean": 0.017702869148589994,
+        "regret_mean_ci95": [
+          0.010741660712623117,
+          0.026244377433225007
+        ],
+        "failure_rate": 0.03214285714285714,
+        "failure_rate_ci95": [
+          0.014285714285714285,
+          0.05178571428571429
+        ],
+        "failure_rate_comparable_subset": 0.03214285714285714,
+        "failure_rate_comparable_subset_ci95": [
+          0.014285714285714285,
+          0.05178571428571429
+        ]
+      },
+      "tail": {
+        "base_top1_share": {
+          "point": 0.05552631350768987,
+          "ci95": [
+            0.038504679439607656,
+            0.0775993322569343
+          ]
+        },
+        "drop_base_top1_reduction": {
+          "point": -0.1943456073948938,
+          "ci95": [
+            -0.5173901042602522,
+            0.0170489242538465
+          ]
+        },
+        "base_top3_share": {
+          "point": 0.1644941212647523,
+          "ci95": [
+            0.1133094219502321,
+            0.21063439741201087
+          ]
+        },
+        "drop_base_top3_reduction": {
+          "point": -0.2174336534245477,
+          "ci95": [
+            -0.6058298400346258,
+            0.01382325061238345
+          ]
+        },
+        "median_base": {
+          "point": 0.007547192872036423,
+          "ci95": [
+            0.006748777934934225,
+            0.008086907578712776
+          ]
+        },
+        "median_candidate": {
+          "point": 0.009414801494010083,
+          "ci95": [
+            0.008687458127689784,
+            0.00994806783694624
+          ]
+        },
+        "median_difference": {
+          "point": -0.0018676086219736598,
+          "ci95": [
+            -0.0026286187799067218,
+            -0.0011470807491758878
+          ]
+        },
+        "top1_case_share_absolute_gain": {
+          "point": 0.09745764566791712,
+          "ci95": [
+            0.09565846552873496,
+            0.2853961927737488
+          ]
+        },
+        "top3_case_share_absolute_gain": {
+          "point": 0.23995892562328672,
+          "ci95": [
+            0.2496625824628463,
+            0.4896956041781738
+          ]
+        }
+      }
+    },
+    "case_sensitivity": {
+      "n_states_failure": 560,
+      "n_states_regret": 560,
+      "n_episodes": 280,
+      "n_cases": 140,
+      "regret_reduction": -0.1835543122698425,
+      "regret_reduction_ci95": [
+        -0.46109421190369826,
+        0.00854627640128711
+      ],
+      "regret_reduction_ci98_3333_cv_bonferroni": [
+        -0.5458335820027754,
+        0.048671896464051366
+      ],
+      "paired_regret_gain": -0.007237429326866123,
+      "paired_regret_gain_ci95": [
+        -0.014980480648119628,
+        0.0003940229221143781
+      ],
+      "failure_change_candidate_minus_base": 0.0035714285714285713,
+      "failure_change_ci95": [
+        -0.005357142857142857,
+        0.014285714285714285
+      ],
+      "failure_change_comparable_subset": 0.0035714285714285713,
+      "failure_change_comparable_subset_ci95": [
+        -0.005357142857142857,
+        0.014285714285714285
+      ],
+      "bootstrap": {
+        "cluster": "case",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          0,
+          1,
+          1
+        ],
+        "invalid_regret_ratio_replicates": 0
+      },
+      "base": {
+        "regret_mean": 0.03942936146455881,
+        "regret_mean_ci95": [
+          0.025583827986826842,
+          0.05615880952040657
+        ],
+        "failure_rate": 0.04642857142857143,
+        "failure_rate_ci95": [
+          0.025,
+          0.07142857142857142
+        ],
+        "failure_rate_comparable_subset": 0.04642857142857143,
+        "failure_rate_comparable_subset_ci95": [
+          0.025,
+          0.07142857142857142
+        ]
+      },
+      "candidate": {
+        "regret_mean": 0.04666679079142493,
+        "regret_mean_ci95": [
+          0.032614662062951175,
+          0.06311123027654618
+        ],
+        "failure_rate": 0.05,
+        "failure_rate_ci95": [
+          0.02857142857142857,
+          0.075
+        ],
+        "failure_rate_comparable_subset": 0.05,
+        "failure_rate_comparable_subset_ci95": [
+          0.02857142857142857,
+          0.075
+        ]
+      },
+      "random": {
+        "regret_mean": 0.05673051933004038,
+        "regret_mean_ci95": [
+          0.04349021076112644,
+          0.07180874947302134
+        ],
+        "failure_rate": 0.05575049289311001,
+        "failure_rate_ci95": [
+          0.03455776119670958,
+          0.07817009328073972
+        ],
+        "failure_rate_comparable_subset": 0.05575049289311001,
+        "failure_rate_comparable_subset_ci95": [
+          0.03455776119670958,
+          0.07817009328073972
+        ]
+      },
+      "random_top5": {
+        "regret_mean": 0.04636743841524719,
+        "regret_mean_ci95": [
+          0.03387543177897834,
+          0.0606082672586466
+        ],
+        "failure_rate": 0.050238095238095234,
+        "failure_rate_ci95": [
+          0.029285714285714283,
+          0.07333333333333333
+        ],
+        "failure_rate_comparable_subset": 0.050238095238095234,
+        "failure_rate_comparable_subset_ci95": [
+          0.029285714285714283,
+          0.07333333333333333
+        ]
+      },
+      "oracle_top5": {
+        "regret_mean": 0.017702869148589994,
+        "regret_mean_ci95": [
+          0.010712835216121075,
+          0.02613259458636889
+        ],
+        "failure_rate": 0.03214285714285714,
+        "failure_rate_ci95": [
+          0.016026785714285906,
+          0.05178571428571429
+        ],
+        "failure_rate_comparable_subset": 0.03214285714285714,
+        "failure_rate_comparable_subset_ci95": [
+          0.016026785714285906,
+          0.05178571428571429
+        ]
+      }
+    }
+  },
+  "20人": {
+    "episode_primary": {
+      "n_states_failure": 560,
+      "n_states_regret": 558,
+      "n_episodes": 280,
+      "n_cases": 140,
+      "regret_reduction": -0.02135799712511754,
+      "regret_reduction_ci95": [
+        -0.23305466065928626,
+        0.15485329735116388
+      ],
+      "regret_reduction_ci98_3333_cv_bonferroni": [
+        -0.2932023848628262,
+        0.18508654098516972
+      ],
+      "paired_regret_gain": -0.0024725039187498657,
+      "paired_regret_gain_ci95": [
+        -0.023316260040076694,
+        0.020397429067589613
+      ],
+      "failure_change_candidate_minus_base": 0.0,
+      "failure_change_ci95": [
+        -0.025,
+        0.023214285714285715
+      ],
+      "failure_change_comparable_subset": 0.0,
+      "failure_change_comparable_subset_ci95": [
+        -0.025089605734767026,
+        0.023381294964028777
+      ],
+      "bootstrap": {
+        "cluster": "episode",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          0,
+          2,
+          0
+        ],
+        "invalid_regret_ratio_replicates": 0
+      },
+      "base": {
+        "regret_mean": 0.1157647837606523,
+        "regret_mean_ci95": [
+          0.08990375308439416,
+          0.14495502036460434
+        ],
+        "failure_rate": 0.16428571428571428,
+        "failure_rate_ci95": [
+          0.12142857142857143,
+          0.20714285714285716
+        ],
+        "failure_rate_comparable_subset": 0.16487455197132617,
+        "failure_rate_comparable_subset_ci95": [
+          0.12208258527827648,
+          0.2075134168157424
+        ]
+      },
+      "candidate": {
+        "regret_mean": 0.11823728767940214,
+        "regret_mean_ci95": [
+          0.09648172048822833,
+          0.1431720226454725
+        ],
+        "failure_rate": 0.16428571428571428,
+        "failure_rate_ci95": [
+          0.12857142857142856,
+          0.2017857142857143
+        ],
+        "failure_rate_comparable_subset": 0.16487455197132617,
+        "failure_rate_comparable_subset_ci95": [
+          0.12879568106312295,
+          0.2025089605734767
+        ]
+      },
+      "random": {
+        "regret_mean": 0.1258450807929834,
+        "regret_mean_ci95": [
+          0.10674221343975672,
+          0.14696655938768055
+        ],
+        "failure_rate": 0.17175389537743893,
+        "failure_rate_ci95": [
+          0.13928748367293498,
+          0.2063088272285044
+        ],
+        "failure_rate_comparable_subset": 0.17236950073721471,
+        "failure_rate_comparable_subset_ci95": [
+          0.13993496923888196,
+          0.20701767046510958
+        ]
+      },
+      "random_top5": {
+        "regret_mean": 0.11302683512835969,
+        "regret_mean_ci95": [
+          0.09418011028354834,
+          0.1336732589555254
+        ],
+        "failure_rate": 0.16083333333333333,
+        "failure_rate_ci95": [
+          0.12713690476190478,
+          0.19654761904761905
+        ],
+        "failure_rate_comparable_subset": 0.16140979689366786,
+        "failure_rate_comparable_subset_ci95": [
+          0.12758801217553786,
+          0.1973834789311408
+        ]
+      },
+      "oracle_top5": {
+        "regret_mean": 0.03548710696472734,
+        "regret_mean_ci95": [
+          0.02492039495433828,
+          0.04822061708651763
+        ],
+        "failure_rate": 0.09107142857142857,
+        "failure_rate_ci95": [
+          0.0625,
+          0.12142857142857143
+        ],
+        "failure_rate_comparable_subset": 0.0913978494623656,
+        "failure_rate_comparable_subset_ci95": [
+          0.0626118067978533,
+          0.12186379928315412
+        ]
+      },
+      "tail": {
+        "base_top1_share": {
+          "point": 0.019800706476314885,
+          "ci95": [
+            0.015243397870492694,
+            0.02455354428354042
+          ]
+        },
+        "drop_base_top1_reduction": {
+          "point": -0.040440445591562964,
+          "ci95": [
+            -0.2493714740149404,
+            0.14209084741869737
+          ]
+        },
+        "base_top3_share": {
+          "point": 0.056452578860080795,
+          "ci95": [
+            0.04472532811067318,
+            0.07055237669942682
+          ]
+        },
+        "drop_base_top3_reduction": {
+          "point": -0.06110532403354485,
+          "ci95": [
+            -0.289935023837784,
+            0.11843612029897008
+          ]
+        },
+        "median_base": {
+          "point": 0.013651436624750657,
+          "ci95": [
+            0.009948762500000019,
+            0.016774569548340112
+          ]
+        },
+        "median_candidate": {
+          "point": 0.019701995000000028,
+          "ci95": [
+            0.01663720012670883,
+            0.02357113783850029
+          ]
+        },
+        "median_difference": {
+          "point": -0.006050558375249371,
+          "ci95": [
+            -0.009288300239794545,
+            -0.0034800020053256573
+          ]
+        },
+        "top1_case_share_absolute_gain": {
+          "point": 0.051212757093514,
+          "ci95": [
+            0.05796679557055426,
+            0.17617007490193104
+          ]
+        },
+        "top3_case_share_absolute_gain": {
+          "point": 0.14354847638694276,
+          "ci95": [
+            0.1609952770455172,
+            0.3268363872792
+          ]
+        }
+      }
+    },
+    "case_sensitivity": {
+      "n_states_failure": 560,
+      "n_states_regret": 558,
+      "n_episodes": 280,
+      "n_cases": 140,
+      "regret_reduction": -0.02135799712511754,
+      "regret_reduction_ci95": [
+        -0.22443896408163375,
+        0.15189011617447776
+      ],
+      "regret_reduction_ci98_3333_cv_bonferroni": [
+        -0.27838533265775023,
+        0.18484040443589367
+      ],
+      "paired_regret_gain": -0.0024725039187498657,
+      "paired_regret_gain_ci95": [
+        -0.022402586417358084,
+        0.019224708247811122
+      ],
+      "failure_change_candidate_minus_base": 0.0,
+      "failure_change_ci95": [
+        -0.023214285714285715,
+        0.023214285714285715
+      ],
+      "failure_change_comparable_subset": 0.0,
+      "failure_change_comparable_subset_ci95": [
+        -0.023381294964028777,
+        0.023297491039426525
+      ],
+      "bootstrap": {
+        "cluster": "case",
+        "replicates": 5000,
+        "seed_sequence": [
+          20261013,
+          0,
+          2,
+          1
+        ],
+        "invalid_regret_ratio_replicates": 0
+      },
+      "base": {
+        "regret_mean": 0.1157647837606523,
+        "regret_mean_ci95": [
+          0.08997218892696113,
+          0.14354726142973195
+        ],
+        "failure_rate": 0.16428571428571428,
+        "failure_rate_ci95": [
+          0.12142857142857143,
+          0.21071428571428572
+        ],
+        "failure_rate_comparable_subset": 0.16487455197132617,
+        "failure_rate_comparable_subset_ci95": [
+          0.12186379928315412,
+          0.2114695340501792
+        ]
+      },
+      "candidate": {
+        "regret_mean": 0.11823728767940214,
+        "regret_mean_ci95": [
+          0.09492893019066385,
+          0.1432420400585092
+        ],
+        "failure_rate": 0.16428571428571428,
+        "failure_rate_ci95": [
+          0.12321428571428572,
+          0.20714285714285716
+        ],
+        "failure_rate_comparable_subset": 0.16487455197132617,
+        "failure_rate_comparable_subset_ci95": [
+          0.12432432432432433,
+          0.20826789197008627
+        ]
+      },
+      "random": {
+        "regret_mean": 0.1258450807929834,
+        "regret_mean_ci95": [
+          0.10657344717569851,
+          0.1457699402456709
+        ],
+        "failure_rate": 0.17175389537743893,
+        "failure_rate_ci95": [
+          0.13725935933289882,
+          0.20890472210239183
+        ],
+        "failure_rate_comparable_subset": 0.17236950073721471,
+        "failure_rate_comparable_subset_ci95": [
+          0.13756400688563628,
+          0.20955709328311029
+        ]
+      },
+      "random_top5": {
+        "regret_mean": 0.11302683512835969,
+        "regret_mean_ci95": [
+          0.09404953251982424,
+          0.13252194173104642
+        ],
+        "failure_rate": 0.16083333333333333,
+        "failure_rate_ci95": [
+          0.12583035714285715,
+          0.1989315476190477
+        ],
+        "failure_rate_comparable_subset": 0.16140979689366786,
+        "failure_rate_comparable_subset_ci95": [
+          0.12603031760280414,
+          0.19964223421926913
+        ]
+      },
+      "oracle_top5": {
+        "regret_mean": 0.03548710696472734,
+        "regret_mean_ci95": [
+          0.0251795664503207,
+          0.04803364467341963
+        ],
+        "failure_rate": 0.09107142857142857,
+        "failure_rate_ci95": [
+          0.0625,
+          0.12321428571428572
+        ],
+        "failure_rate_comparable_subset": 0.0913978494623656,
+        "failure_rate_comparable_subset_ci95": [
+          0.06272401433691756,
+          0.12365591397849462
+        ]
+      }
+    }
+  }
+}

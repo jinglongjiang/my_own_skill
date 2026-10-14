@@ -1,0 +1,8 @@
+{
+  "status": "已验证通过",
+  "roots": 420,
+  "regret_roots": 419,
+  "single_eligible_skipped": 1,
+  "maximum_absolute_difference": 0.0,
+  "source_label_passes": 1
+}
